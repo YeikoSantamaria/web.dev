@@ -115,7 +115,7 @@ is an aesthetic one for most users, and might not relate to ambient lighting con
 {% endAside %}
 
 <figure class="w-figure w-figure--inline-right">
-  {% Img src="image/admin/WZ9I5g1YGG6S1TjygEIq.png", alt="CloseView in Mac OS System 7 with \", width="531", height="618" %}
+  {% Img src="image/admin/WZ9I5g1YGG6S1TjygEIq.png", alt="CloseView in Mac OS System 7 with \\", width="531", height="618" %}
   <figcaption class="w-figcaption">System&nbsp;7 CloseView (<a href="https://archive.org/details/mac_Macintosh_System_7_at_your_Fingertips_1992">Source</a>)</figcaption>
 </figure>
 
