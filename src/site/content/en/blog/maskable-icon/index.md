@@ -28,7 +28,7 @@ variety of shapes across different device models. Icons that don't follow this n
 white backgrounds.
 
 <figure class="w-figure">
-  ![PWA icons in white circles on Android](homescreen-any.png)
+  {% Img src="image/admin/jzjx6dGkXN9EdqnUzAeg.png", alt="PWA icons in white circles on Android", width="800", height="200" %}
   <figcaption class="w-figcaption">
     Transparent PWA icons appear inside white circles on Android
   </figcaption>
@@ -40,7 +40,7 @@ on all Android devices. Firefox and Chrome have recently added support for this 
 can adopt it in your apps.
 
 <figure class="w-figure">
-  ![PWA icons covering the entire circle on Android](homescreen-maskable.png)
+  {% Img src="image/admin/J7gkg9ylP2ANlFawblze.png", alt="PWA icons covering the entire circle on Android", width="800", height="200" %}
   <figcaption class="w-figcaption">
     Maskable icons cover the entire circle instead
   </figcaption>
@@ -74,7 +74,7 @@ icons will be trimmed so that only the safe area is visible. If your logo is vis
 safe area, you're good to go.
 
 <figure class="w-figure">
-  ![Applications panel in DevTools displaying PWA icons with edges cropped](devtools.png)
+  {% Img src="image/admin/UeKTJM2SE0SQhgnnyaQG.png", alt="Applications panel in DevTools displaying PWA icons with edges cropped", width="762", height="423" %}
   <figcaption class="w-figcaption">
     The Applications panel
   </figcaption>
@@ -92,7 +92,7 @@ If you want to create a maskable icon based on your existing icon, you can use t
 then export the image.
 
 <figure class="w-figure">
-  ![Maskable.app Editor screenshot](maskable-app-editor.png)
+  {% Img src="image/admin/MDXDwH3RWyj4po6daeXw.png", alt="Maskable.app Editor screenshot", width="670", height="569" %}
   <figcaption class="w-figcaption">
     Creating icons in Maskable.app Editor
   </figcaption>

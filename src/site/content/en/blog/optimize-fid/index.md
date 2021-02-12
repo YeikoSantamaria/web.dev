@@ -73,7 +73,7 @@ potential JavaScript bloat (loading and executing more than a user may need righ
 Splitting up long tasks can reduce input delay on your site.
 
 <figure class="w-figure">
-  ![Long Tasks in Chrome DevTools](./long-task.png)
+  {% Img src="image/admin/THLKu0sOPhSghNr0XkP1.png", alt="Long Tasks in Chrome DevTools", width="800", height="132" %}
   <figcaption class="w-figcaption">Chrome DevTools <a href="https://developers.google.com/web/updates/2020/03/devtools#long-tasks">visualizes Long Tasks</a> in the Performance Panel</figcaption>
 </figure>
 
@@ -166,7 +166,7 @@ responding to user input.
 The [Coverage](https://developers.google.com/web/tools/chrome-devtools/coverage) tab in Chrome
 DevTools can tell you how much JavaScript is not being used on your web page.
 
-![The Coverage tab.](coverage-panel-js.png)
+{% Img src="image/admin/UNEigFiwsGu48rtXMZM4.png", alt="The Coverage tab.", width="800", height="559" %}
 
 To cut down on unused JavaScript:
 
@@ -262,7 +262,7 @@ A number of tools are available to measure and debug FID:
     Time](/tbt/) (TBT) can be used as a proxy. Optimizations that improve TBT should
     also improve FID in the field.
 
-    ![Lighthouse 6.0.](lighthouse.jpg)
+    {% Img src="image/admin/FRM9kHWmsDv9dddGMgwu.jpg", alt="Lighthouse 6.0.", width="800", height="309" %}
 
 +   [Chrome User Experience Report](https://developers.google.com/web/tools/chrome-user-experience-report)
     provides real-world FID values aggregated at the origin-level

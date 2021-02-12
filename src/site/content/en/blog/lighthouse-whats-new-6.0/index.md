@@ -51,7 +51,7 @@ the highlights in this article.
 ## New metrics {: #new-metrics }
 
 <figure class="w-figure">
-  ![Lighthouse 6.0 metrics.](lighthouse-new-metrics.png)
+  {% Img src="image/admin/Yo1oNtdfEF4PhD7zHDHQ.png", alt="Lighthouse 6.0 metrics.", width="800", height="334" %}
 </figure>
 
 Lighthouse 6.0 introduces three new metrics to the report. Two of these new metrics–Largest
@@ -261,7 +261,7 @@ you explore performance scoring. The calculator also gives you a comparison betw
 with your results populated.
 
 <figure class="w-figure">
-  ![Lighthouse Score Calculator.](lighthouse-scorecalc.png)
+  {% Img src="image/admin/N8cRFUnM526m3fB4GQVf.png", alt="Lighthouse Score Calculator.", width="800", height="425" %}
   <figcaption class="w-figcaption">Huge thanks to <a href="https://twitter.com/anatudor">Ana Tudor</a> for the gauge upgrade!</figcaption>
 </figure>
 
@@ -332,17 +332,17 @@ Start using Lighthouse CI on your project today by following our
 
 <figure class="w-figure w-figure--inline-left">
   <a href="lighthouse-ci-1.png" target="_blank">
-    ![Lighthouse CI.](lighthouse-ci-1.png)
+    {% Img src="image/admin/sXnTzewqGuc84MOCzFJe.png", alt="Lighthouse CI.", width="800", height="550" %}
   </a>
 </figure>
 <figure class="w-figure w-figure--inline-left">
   <a href="lighthouse-ci-2.png" target="_blank">
-    ![Lighthouse CI.](lighthouse-ci-2.png)
+    {% Img src="image/admin/uGT7AUJEQeqK1vlKySLb.png", alt="Lighthouse CI.", width="800", height="549" %}
   </a>
 </figure>
 <figure class="w-figure">
   <a href="lighthouse-ci-3.png" target="_blank">
-    ![Lighthouse CI.](lighthouse-ci-3.png)
+    {% Img src="image/admin/ZR48KZebW43eyAvB1RkT.png", alt="Lighthouse CI.", width="800", height="472" %}
   </a>
 </figure>
 
@@ -454,7 +454,7 @@ Lighthouse has begun experimenting with collecting source maps to power new feat
 -  Displaying the original source code for report items with a "source location".
 
 <figure class="w-figure">
-  ![Unused JavaScript showing modules from source maps.](lighthouse-sourcemaps-unusedjs.png)
+  {% Img src="image/admin/iZPhM3KNQebgwCsgXTuf.png", alt="Unused JavaScript showing modules from source maps.", width="800", height="755" %}
   <figcaption class="w-caption">
     The Unused JavaScript audit using source maps to show unused code in specific bundled modules.
   </figcaption>

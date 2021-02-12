@@ -186,7 +186,7 @@ The rest of this blog post explains how `system-ui` broke in Chromium 80 and how
 This story starts with a different bug: [#1005969](https://crbug.com/1005969). This was reported against macOS 10.15 because the `system-ui` font spacing looked narrow and crammed.
 
 <figure class="w-figure">
-  ![A comparison of two paragraphs from a Facebook group page. On the left is Chrome and the right is Safari, and Chrome is subtle but slightly tighter in spacing](./tight-chrome-spacing.jpg)
+  {% Img src="image/admin/f0xi5DBj1M6v72VcKNUx.jpg", alt="A comparison of two paragraphs from a Facebook group page. On the left is Chrome and the right is Safari, and Chrome is subtle but slightly tighter in spacing", width="800", height="417" %}
   <figcaption class="w-figcaption">Chrome on left (tighter tracking), Safari on right (better optical spacing)</figcaption>
 </figure>
 
@@ -220,7 +220,7 @@ To fix that, Chromium needed to apply `opsz` correctly to the system font. This 
 This is where it got tricky: Chromium applied `opsz` but something did not look right still. System fonts on Mac have an additional font table called [`trak`](https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6trak.html), which tweaks horizontal spacing. While working on the fix, Chromium engineers noticed that on macOS, when retrieving horizontal metrics from a `CTFontRef` object, the `trak` metrics were already getting factored into the metrics results. Chromium's shaping library [`HarfBuzz`](https://github.com/harfbuzz/harfbuzz) needs metrics where the `trak` values are not yet factored in.
 
 <figure class="w-figure">
-  ![A master display of system-ui and all of it's font weight and variations in a list. Half of them have no weight differences applied.](./weight-loss.jpg)
+  {% Img src="image/admin/rq7Vpi6ZfUzFNKEOVACk.jpg", alt="A master display of system-ui and all of it's font weight and variations in a list. Half of them have no weight differences applied.", width="800", height="481" %}
   <figcaption class="w-figcaption">Left: Bold weights applied to font sizes 19 and below. Right: Font sizes 20 and up lose bold styling</figcaption>
 </figure>
 
@@ -241,7 +241,7 @@ Since the fix for the spacing issue required a set of interconnected Blink and S
 In the end, of course Chromium wanted to fix both things. Chromium now resorts to using HarfBuzz built-in font OpenType font metrics functions for retrieving horizontal metrics directly from the binary data in the system font's font tables. Using this, Chromium is sidestepping `CoreText` and Skia when the font has a `trak` table (except when it's the emoji font).
 
 <figure class="w-figure">
-  ![A master display of system-ui and all of it's font weight and variations in a list. The half previously not working looks great now.](./weight-back.jpg)
+  {% Img src="image/admin/9KOCF5Gh0tEWETkmDEVo.jpg", alt="A master display of system-ui and all of it's font weight and variations in a list. The half previously not working looks great now.", width="800", height="481" %}
 </figure>
 
 In the meantime there's still [Skia Issue #10123](https://bugs.chromium.org/p/skia/issues/detail?id=10123) to track fixing this fully in Skia, and to go back to using Skia to retrieve the system font metrics from there, instead of the current fix that goes through `HarfBuzz`.

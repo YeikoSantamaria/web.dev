@@ -35,7 +35,7 @@ In this post we'll focus on best practices for making JavaScript web apps discov
 This year we announced the much-awaited [new evergreen Googlebot](https://webmasters.googleblog.com/2019/05/the-new-evergreen-googlebot.html).
 
 <figure class="w-figure">
-  ![Googlebot holding the Chrome logo](evergreen-googlebot.png)
+  {% Img src="image/admin/q6RSuwuwLT7mcgE9Joqp.png", alt="Googlebot holding the Chrome logo", width="650", height="652" %}
   <figcaption class="w-figcaption">
     Googlebot is now running a modern Chromium rendering engine.
   </figcaption>
@@ -48,7 +48,7 @@ Googlebot now uses a modern Chromium engine to render websites for Google Search
 Googlebot is a pipeline with several components. Let's take a look to understand how Googlebot indexes pages for Google Search.
 
 <figure class="w-figure w-figure--fullbleed">
-  ![A diagram showing a URL moving from a crawling queue to a processing step that extracts linked URLs and adds them to the crawling queue, a rendering queue that feeds into a renderer which produces HTML. The processor uses this HTML to extract linked URLs again and index the content.](googlebot-process.png)
+  {% Img src="image/admin/zu4wDqHHxpU0dbwSajqA.png", alt="A diagram showing a URL moving from a crawling queue to a processing step that extracts linked URLs and adds them to the crawling queue, a rendering queue that feeds into a renderer which produces HTML. The processor uses this HTML to extract linked URLs again and index the content.", width="800", height="446" %}
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     Googlebot's pipeline for crawling, rendering, and indexing a page.
   </figcaption>
@@ -116,7 +116,7 @@ The default rendering strategy for single-page apps today is client-side renderi
 Let's look at a web app that shows a collection of cat images and uses JavaScript to render entirely in the browser.
 
 <figure class="w-figure">
-  ![A code box showing HTML that loads some scripts. A screenshot of a web page on mobile that shows placeholder images while loading the actual content.](spa-kittens.png)
+  {% Img src="image/admin/lzijYVwo1DPX3Fa2liXk.png", alt="A code box showing HTML that loads some scripts. A screenshot of a web page on mobile that shows placeholder images while loading the actual content.", width="800", height="447" %}
   <figcaption class="w-figcaption">
     The rendering strategy influences the performance and robustness of your web apps.
   </figcaption>
@@ -133,7 +133,7 @@ While most pages generally work fine with Googlebot, we recommend testing your p
 The easiest way to do a quick check of a page is the [Mobile-Friendly Test](https://g.co/mobilefriendly). Besides showing you issues with mobile-friendliness, it also gives you a screenshot of the above-the-fold content and the rendered HTML as Googlebot sees it.
 
 <figure class="w-figure">
-  ![The mobile-friendly test shows the rendered HTML Googlebot sees after rendering the page](mobile-friendly-test-rendered-html.png)
+  {% Img src="image/admin/15IgtDchchBvLsVyzmG2.png", alt="The mobile-friendly test shows the rendered HTML Googlebot sees after rendering the page", width="800", height="414" %}
   <figcaption class="w-figcaption">
     The mobile-friendly test shows you the rendered HTML Googlebot uses.
   </figcaption>
@@ -142,13 +142,13 @@ The easiest way to do a quick check of a page is the [Mobile-Friendly Test](http
 You can also find out if there are resource loading issues or JavaScript errors.
 
 <figure class="w-figure">
-  ![The Mobile-Friendly Test shows JavaScript errors and a stack trace.](mobile-friendly-test-js-error.png)
+  {% Img src="image/admin/22ttektRnHrbGT0zvbHK.png", alt="The Mobile-Friendly Test shows JavaScript errors and a stack trace.", width="800", height="414" %}
 </figure>
 
 It's recommended to verify your domain in [Google Search Console](https://g.co/searchconsole) so you can use the URL inspection tool to find out more about the crawling and indexing state of a URL, receive messages when Search Console detects issues and find out more details of how your site performs in Google Search.
 
 <figure class="w-figure">
-  ![The URL inspection tool showing a page that is indexed with information on discovery, crawling and indexing for one URL](search-console-url-inspection-tool.png)
+  {% Img src="image/admin/JYsPy8FXL3E86gCzekQ3.png", alt="The URL inspection tool showing a page that is indexed with information on discovery, crawling and indexing for one URL", width="800", height="655" %}
   <figcaption class="w-figcaption">
     The URL Inspection Tool in Search Console shows the status of a page in crawling, rendering, and indexing.
   </figcaption>
@@ -157,7 +157,7 @@ It's recommended to verify your domain in [Google Search Console](https://g.co/s
 For general SEO tips and guidance, you can use the SEO audits in Lighthouse. To integrate SEO audits into your testing suite, use the [Lighthouse CLI](https://github.com/GoogleChrome/lighthouse/tree/master/lighthouse-cli) or the [Lighthouse CI bot](https://github.com/GoogleChromeLabs/lighthousebot).
 
 <figure class="w-figure">
-  ![A lighthouse SEO report with a score of 44 and warnings about mobile-friendliness as well as warnings about content best practices](lighthouse-seo-audit-report.png)
+  {% Img src="image/admin/ctch0ql8UQZiaKaWy34u.png", alt="A lighthouse SEO report with a score of 44 and warnings about mobile-friendliness as well as warnings about content best practices", width="800", height="443" %}
   <figcaption class="w-figcaption">
     Lighthouse shows general SEO recommendations for a page.
   </figcaption>

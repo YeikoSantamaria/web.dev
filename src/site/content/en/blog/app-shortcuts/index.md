@@ -41,12 +41,12 @@ The app shortcuts menu is invoked by right-clicking the app icon in the taskbar
 launcher icon on Android.
 
 <figure class="w-figure">
-  ![Screenshot of an app shortcuts menu opened on Android](./app-shortcuts-menu-android.png)
+  {% Img src="image/admin/F4TsJNfRJNJSt2ZpqVAy.png", alt="Screenshot of an app shortcuts menu opened on Android", width="800", height="420" %}
   <figcaption class="w-figcaption">App shortcuts menu opened on Android</figcaption>
 </figure>
 
 <figure class="w-figure">
-  ![Screenshot of an app shortcuts menu opened on Windows](./app-shortcuts-menu-windows.png)
+  {% Img src="image/admin/RoF6k7Aw6WNvaEcsgIcb.png", alt="Screenshot of an app shortcuts menu opened on Windows", width="800", height="420" %}
   <figcaption class="w-figcaption">App shortcuts menu opened on Windows</figcaption>
 </figure>
 
@@ -151,7 +151,7 @@ To verify your app shortcuts are setup correctly, use the **Manifest** pane in t
 **Application** panel of DevTools.
 
 <figure class="w-figure">
-  ![Screenshot of app shortcuts in DevTools](./app-shortcuts-devtools.png)
+  {% Img src="image/admin/rEL0r8lEfYHlsj0ylLSL.png", alt="Screenshot of app shortcuts in DevTools", width="800", height="534" %}
   <figcaption class="w-figcaption">App shortcuts shown in DevTools</figcaption>
 </figure>
 

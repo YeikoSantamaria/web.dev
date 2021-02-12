@@ -190,7 +190,7 @@ With these updates come changes to Chromium DevTools, notice how the **Styles**
 pane handles `grid-gap` and `gap` now 👍
 
 <figure class="w-figure">
-  ![An office with two people working at a table.](./devtools-gap.png)
+  {% Img src="image/admin/7ZxgySczxUR1qxuD8cbC.png", alt="An office with two people working at a table.", width="654", height="446" %}
   <figcaption class="w-figcaption">Devtools shows the both <code>grid-gap</code> and <code>gap</code>, with
   <code>gap</code> shown used below <code>grid-gap</code> as to let the cascade use the latest syntax.</figcaption>
 </figure>

@@ -84,7 +84,7 @@ address in a privacy-preserving way the use cases that third-party cookies solve
 - [Trust Tokens](/trust-tokens/) help combat fraud and distinguish bots from humans.
 
 <figure class="w-figure">
-  ![Overview of some privacy sandbox APIs: trust tokens and conversion measurement (aggregate and event)](./all-apis.jpg)
+  {% Img src="image/admin/vs7VtXlG4d6wHjZ1Tmwi.jpg", alt="Overview of some privacy sandbox APIs: trust tokens and conversion measurement (aggregate and event)", width="800", height="254" %}
 </figure>
 
 **How does the Event Conversion Measurement API compare to third-party cookies?**
@@ -111,7 +111,7 @@ proposal](https://github.com/WICG/conversion-measurement-api#privacy-considerati
 ### How it works
 
 <figure class="w-figure">
-  ![Diagram: overview of the conversion measurement API steps](./diagram-overview.jpg)
+  {% Img src="image/admin/Xn96AVosulGisR6Hoj4J.jpg", alt="Diagram: overview of the conversion measurement API steps", width="800", height="496" %}
 </figure>
 
 This API can be used with two types of links (`<a>` elements) used for advertising:
@@ -199,7 +199,7 @@ How much can `adtech.example` learn about web users?
 #### With third-party cookies
 
 <figure class="w-figure">
-  ![Diagram: how third-party cookies enable cross-site user recognition](./with-cookies.jpg)
+  {% Img src="image/admin/kRpuY2r7ZSPtADz7e1P5.jpg", alt="Diagram: how third-party cookies enable cross-site user recognition", width="800", height="860" %}
 </figure>
 
 `adtech.example` relies on a **a third-party cookie used as a unique cross-site identifier** to
@@ -215,7 +215,7 @@ just `news.example` and `shoes.example`—a user's behavior can be tracked acros
 #### With the Event Conversion Measurement API
 
 <figure class="w-figure">
-  ![Diagram: how the API enables conversion measurement without cross-site user recognition](./with-api.jpg)
+  {% Img src="image/admin/X6sfyeKGncVm0LJSYJva.jpg", alt="Diagram: how the API enables conversion measurement without cross-site user recognition", width="800", height="643" %}
     <figcaption class="w-figcaption">
     "Ad ID" on the cookies diagram and "Click ID" are both identifiers that enable mapping
     to detailed data. On this diagram, it's called "Click ID" because only click-through conversion
@@ -358,7 +358,7 @@ In Chrome, report scheduling works as follows:
 </div>
 
 <figure class="w-figure">
-  ![Chronology of what reports are sent when](./report-timing.jpg)
+  {% Img src="image/admin/bgkpW6Nuqs5q1ddyMG8X.jpg", alt="Chronology of what reports are sent when", width="800", height="462" %}
 </figure>
 
 See [Sending Scheduled
@@ -378,7 +378,7 @@ would work with the current API. Future iterations of this API [may be different
 ### Ad click (steps 1 to 5)
 
 <figure class="w-figure">
-  ![Diagram: ad click and click storage](./steps-1.jpg)
+  {% Img src="image/admin/FvbacJL6u37XHuvQuUuO.jpg", alt="Diagram: ad click and click storage", width="800", height="694" %}
 </figure>
 
 An `<a>` ad element is loaded on a publisher site by `adtech.example` within an iframe.
@@ -480,7 +480,7 @@ committed, the browser stores an object that includes `impressiondata`, `convers
 ### Conversion and report scheduling (steps 6 to 9)
 
 <figure class="w-figure">
-  ![Diagram: conversion and report scheduling](./steps-2.jpg)
+  {% Img src="image/admin/2fFVvAwyiXSaSDp8XVXo.jpg", alt="Diagram: conversion and report scheduling", width="800", height="639" %}
 </figure>
 
 Either directly after clicking the ad, or later on—for example, on the next day—the user visits
@@ -545,7 +545,7 @@ the two-day-after-click mark if the browser is running.
 ### Sending the report (steps 10 and 11)
 
 <figure class="w-figure">
-  ![Diagram: browser sending the report](./steps-3.jpg)
+  {% Img src="image/admin/Er48gVzK5gHUGdDHWHz1.jpg", alt="Diagram: browser sending the report", width="800", height="533" %}
 </figure>
 
 Once the scheduled time to send the report is reached, the browser sends the **conversion report**:

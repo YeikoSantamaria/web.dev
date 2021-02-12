@@ -31,7 +31,7 @@ standards for the performance of your site. More importantly, they make it is
 easy to identify and fix performance regressions before they ship.
 
 <figure class="w-figure">
-  ![A LightWallet report showing which assets are over the file size budget.](./Speed-at0.png)
+  {% Img src="image/admin/b1hw1bMU0dCIqS45XdfW.png", alt="A LightWallet report showing which assets are over the file size budget.", width="800", height="607" %}
 </figure>
 
 LightWallet is available in the newest version of the Lighthouse CLI and only
@@ -105,7 +105,7 @@ below). We hope this will encourage more developers to try out this exciting
 addition.
 
 <figure class="w-figure">
-  ![Google Fonts embed code with font-display included in the URL as a query-parameter](./Speed-at2.png)
+  {% Img src="image/admin/aJqdPp1xobaYRDNx4aJd.png", alt="Google Fonts embed code with font-display included in the URL as a query-parameter", width="800", height="528" %}
 </figure>
 
 Here's a [demo](https://glitch.com/~truth-bookcase) on Glitch of using display

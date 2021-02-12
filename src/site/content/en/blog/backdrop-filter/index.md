@@ -22,7 +22,7 @@ feedback:
 Translucence, blurring, and other effects are useful ways of creating depth while keeping the context of the background content. They support a host of use cases such as frosted glass, video overlays, translucent navigation headers, inappropriate image censoring, image loading, and so on. You may recognize these effects from two popular operating systems: [Windows 10](https://i.kinja-img.com/gawker-media/image/upload/s--9RLXARU4--/c_scale,dpr_2.0,f_auto,fl_progressive,q_80,w_800/trgz8yivyyqrpcnwscu5.png) and [iOS](https://static.businessinsider.com/image/51fd2822eab8eae16e00000b-750.jpg).
 
 <figure class="w-figure">
-  ![An example of a frosted glass effect.](weather_app.jpg)
+  {% Img src="image/admin/mEc6bdwB2ZX6VSXvyJEn.jpg", alt="An example of a frosted glass effect.", width="400", height="300" %}
   <figcaption class="w-figcaption">
     An example of a frosted glass effect. <a href="https://dribbble.com/shots/733714-Weather-App?list=tags&tag=android" target="_blank" rel="noopener noreferrer">Source</a>.
   </figcaption>

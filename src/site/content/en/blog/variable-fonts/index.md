@@ -47,7 +47,7 @@ Before variable fonts, each style was implemented as a separate font file. With
 variable fonts, all styles can be contained in a single file.
 
 <figure class="w-figure">
-  ![A specimen composition and list of different styles of the Roboto family](roboto-family-specimen.png)
+  {% Img src="image/admin/RbhgXwS81Y9PVRJnTjPX.png", alt="A specimen composition and list of different styles of the Roboto family", width="800", height="600" %}
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     Left: a specimen of the Roboto typeface family. Right: named styles within the family.
   </figcaption>

@@ -101,7 +101,7 @@ prefix (`fe80::/10`) defined in section 2.5.6 of
 All others.
 
 <figure class="w-figure">
-  ![Relationship between public, private, local networks in CORS-RFC1918](diagram.png)
+  {% Img src="image/admin/kYpJXAxP6a3hphO4uzZX.png", alt="Relationship between public, private, local networks in CORS-RFC1918", width="800", height="512" %}
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     Relationship between public, private, local networks in CORS-RFC1918.
   </figcaption>
@@ -124,7 +124,7 @@ Starting from Chrome 88, CORS-RFC1918 errors will be reported as CORS policy
 errors in the console.
 
 <figure class="w-figure">
-  ![CORS-RFC1918 errors will be reported as CORS policy errors in the console.](console-error.png)
+  {% Img src="image/admin/enzkNhWMHMkSla8q35OB.png", alt="CORS-RFC1918 errors will be reported as CORS policy errors in the console.", width="800", height="377" %}
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     CORS-RFC1918 errors will be reported as CORS policy errors in the <b>Console</b>.
   </figcaption>
@@ -134,7 +134,7 @@ In the **Network** panel of Chrome DevTools you can enable the **Blocked Request
 checkbox to focus in on blocked requests:
 
 <figure class="w-figure">
-  ![CORS-RFC1918 errors will also be reported as CORS error errors in the Network panel.](cors-error.png)
+  {% Img src="image/admin/UM8ynEAc5uawNBdtHizX.png", alt="CORS-RFC1918 errors will also be reported as CORS error errors in the Network panel.", width="800", height="406" %}
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     CORS-RFC1918 errors will also be reported as CORS error errors in the <b>Network</b> panel.
   </figcaption>

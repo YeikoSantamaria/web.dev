@@ -65,7 +65,7 @@ for information on optimizing your images.
 A few examples illustrate this. The following shows the default behavior when cutting an image's display size in half.
 
 <figure class="w-figure">
-  ![The default resizing behavior](./default-100x100.png)
+  {% Img src="image/admin/QR01OUN3VXTbOhhSOZBz.png", alt="The default resizing behavior", width="800", height="983" %}
   <figcaption class="w-figcaption">
     The default resizing behavior.
   </figcaption>
@@ -76,7 +76,7 @@ If I apply the following feature policy, I get a placeholder image instead.
 `Feature-Policy: oversized-images *(2);`
 
 <figure class="w-figure">
-  ![When the image is too large for the container](./resize-both-dimensions.png)
+  {% Img src="image/admin/NErIMVS4qsSVHek2UtDZ.png", alt="When the image is too large for the container", width="800", height="983" %}
   <figcaption class="w-figcaption">
     When the image is too large for the container.
   </figcaption>
@@ -85,8 +85,8 @@ If I apply the following feature policy, I get a placeholder image instead.
 I get similar results if I lower only the width or the height.
 
 <figure class="w-figure">
-  ![Resized width](./resize-width.png)
-  ![Resized height](./resize-height.png)
+  {% Img src="image/admin/S11HV1w6uqkXq6GDRKVx.png", alt="Resized width", width="800", height="983" %}
+  {% Img src="image/admin/dMPfyFsJ5qexNSj0Q8Ia.png", alt="Resized height", width="800", height="983" %}
   <figcaption class="w-figcaption">
     Resize width and height.
   </figcaption>
@@ -156,7 +156,7 @@ optimizing your images.
 The following shows the default browser behavior. Without the feature policy an unoptimized lossy image can be displayed just the same as an optimized image.
 
 <figure class="w-figure">
-  ![Comparing an optimized image with an unoptimized image](./unoptimized-lossy.png)
+  {% Img src="image/admin/kxabc5874fW5IvPnqR9E.png", alt="Comparing an optimized image with an unoptimized image", width="800", height="983" %}
   <figcaption class="w-figcaption">
     Comparing an optimized image with an unoptimized image.
   </figcaption>
@@ -167,7 +167,7 @@ If I apply the following feature policy, I get a placeholder image instead.
 `Feature-Policy: unoptimized-lossy-images *(0.5);`
 
 <figure class="w-figure">
-  ![When the image is not optimized](./lossy-image-excluded.png)
+  {% Img src="image/admin/Y0cCIEuFI1M3DaKfxBkI.png", alt="When the image is not optimized", width="800", height="983" %}
   <figcaption class="w-figcaption">
     When the image is not optimized.
   </figcaption>

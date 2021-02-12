@@ -130,7 +130,7 @@ one, until it's placed all the HTML elements in your markup.
 <!-- TODO(kayce): Resize this screenshot so there's less whitespace -->
 
 <figure class="w-figure">
-  ![Chrome and DevTools open with a grid visual showing the full width layout](./horizontal-scroll-with-grid.png)
+  {% Img src="image/admin/oLbxOrfO2rUqmxnnleXw.png", alt="Chrome and DevTools open with a grid visual showing the full width layout", width="800", height="465" %}
   <figcaption class="w-figcaption">
     Chrome DevTools showing grid column overflow, making a horizontal scroller.
   </figcaption>

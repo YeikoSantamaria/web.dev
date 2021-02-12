@@ -20,7 +20,7 @@ describes a series of low-level browser APIs that give developers much more cont
 the styles they write.
 
 <figure class="w-figure">
-  ![Houdini layer](./houdini.jpg)
+  {% Img src="image/admin/KgTxiRodgp6kFwHGHvqA.jpg", alt="Houdini layer", width="800", height="599" %}
 </figure>
 
 Houdini enables more semantic CSS with the [Typed Object
@@ -86,7 +86,7 @@ candidate recommendation. It is currently enabled in all Chromium-based browsers
 supported in Safari, and is under consideration for Firefox.
 
 <figure class="w-figure">
-  ![Caniuse support](caniuse-paint.png)
+  {% Img src="image/admin/vL8Z5YEwk2g2QJ6T6IWp.png", alt="Caniuse support", width="800", height="176" %}
   <figcaption class="w-figcaption">
     The CSS Painting API is currently supported on Chromium-based browsers.</a>
   </figcaption>
@@ -101,7 +101,7 @@ implementations, as well as to provide a resource and worklet library, my team b
 ## Houdini.how
 
 <figure class="w-figure">
-  ![Worklet page screenshot.](worklet-page.png)
+  {% Img src="image/admin/UKenhKMvDWI9PvWGcTG4.png", alt="Worklet page screenshot.", width="800", height="833" %}
   <figcaption class="w-figcaption">
     Screenshot from the <a href="https://houdini.how">Houdini.how</a> homepage.
   </figcaption>

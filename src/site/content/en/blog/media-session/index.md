@@ -29,7 +29,7 @@ and even on wearable devices. I'll describe these customizations in this
 article.
 
 <figure class="w-figure">
-  ![Screenshots of Media Session contexts](./contexts.jpg)
+  {% Img src="image/admin/qwTz64KKq4rq7WeA3rlT.jpg", alt="Screenshots of Media Session contexts", width="800", height="330" %}
   <figcaption class="w-figcaption">Media hub on desktop, media notification on mobile, and a wearable device</figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ To illustrate, the image below shows how these interfaces relate to specific
 media controls, in this case a media notification on mobile.
 
 <figure class="w-figure">
-  ![Media Session interfaces illustration](./tldr.jpg)
+  {% Img src="image/admin/eiavbbCE6TlI8osR1tYT.jpg", alt="Media Session interfaces illustration", width="800", height="353" %}
   <figcaption class="w-figcaption">Anatomy of a media notification on mobile</figcaption>
 </figure>
 
@@ -156,7 +156,7 @@ buttons from a headset, another remote device, a keyboard, or interact with a
 media notification.
 
 <figure class="w-figure">
-  ![Screenshot of a media notification in Windows 10](./windows-10-media-notification.jpg)
+  {% Img src="image/admin/9rN4x5GXdhg4qjC0ZEmk.jpg", alt="Screenshot of a media notification in Windows 10", width="800", height="450" %}
   <figcaption class="w-figcaption">Customized media notification in Windows 10</figcaption>
 </figure>
 
@@ -326,7 +326,7 @@ position state is a combination of the media playback rate, duration, and
 current time.
 
 <figure class="w-figure">
-  ![Screenshot of lock screen media controls in Chrome OS](./chrome-os-lock-screen-media-controls.jpg)
+  {% Img src="image/admin/Rlw13wMoaJrDziraXgUc.jpg", alt="Screenshot of lock screen media controls in Chrome OS", width="800", height="450" %}
   <figcaption class="w-figcaption">Lock screen media controls in Chrome OS</figcaption>
 </figure>
 

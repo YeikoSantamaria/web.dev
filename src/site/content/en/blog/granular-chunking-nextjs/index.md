@@ -32,7 +32,7 @@ result in a better loading performance.
 This pattern became popular with many single-page application frameworks adopting an entrypoint and
 bundle configuration that looked like this:
 
-![Common entrypoint and bundle configuration](./commons-pattern-diagram.png)
+{% Img src="image/admin/r4QB67AXzmPMgxcxgbQF.png", alt="Common entrypoint and bundle configuration", width="800", height="569" %}
 
 Although practical, the concept of bundling all shared module code into a single chunk has its
 limitations. Modules not shared in every entry point can be downloaded for routes that do not use it
