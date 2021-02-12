@@ -1,11 +1,11 @@
 ---
 title: "Feedback wanted: CORS for private networks (RFC1918)"
 subhead: |
-  Mitigate the risks associated with unintentional exposure of devices 
+  Mitigate the risks associated with unintentional exposure of devices
   and servers on a client’s internal network to the web at large.
 description: |
-  Unintentional exposure of devices and servers on a client’s internal network to the web at large makes them 
-  vulnerable to malicious attacks. CORS-RFC1918 is a proposal to block requests from public networks by default 
+  Unintentional exposure of devices and servers on a client’s internal network to the web at large makes them
+  vulnerable to malicious attacks. CORS-RFC1918 is a proposal to block requests from public networks by default
   on the browser and require internal devices to opt-in to such requests.
 authors:
   - agektmr
@@ -81,13 +81,13 @@ Affected requests include:
 * Requests from a private network to a local network
 * Requests from the public network to a local network
 
-**A private network**  
+**A private network**
 A destination that resolves to the private address space defined in Section 3 of
 [RFC1918](https://tools.ietf.org/html/rfc1918) in IPv4, an IPv4-mapped IPv6
 address where the mapped IPv4 address is itself private, or an IPv6 address
 outside the `::1/128`, `2000::/3` and `ff00::/8` subnets.
 
-**A local network**  
+**A local network**
 A destination that resolves to the "loopback" space (`127.0.0.0/8`) defined in
 section 3.2.1.3 of [RFC1122](https://tools.ietf.org/html/rfc1122) of IPv4, the
 "link-local" space (`169.254.0.0/16`) defined in
@@ -97,11 +97,11 @@ Address" prefix (`fc00::/7`) defined in Section 3 of
 prefix (`fe80::/10`) defined in section 2.5.6 of
 [RFC4291](https://tools.ietf.org/html/rfc4291) of IPv6.
 
-**A public network**  
+**A public network**
 All others.
 
 <figure class="w-figure">
-  <img src="diagram.png" alt="Relationship between public, private, local networks in CORS-RFC1918">
+  ![Relationship between public, private, local networks in CORS-RFC1918](diagram.png)
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     Relationship between public, private, local networks in CORS-RFC1918.
   </figcaption>
@@ -124,17 +124,17 @@ Starting from Chrome 88, CORS-RFC1918 errors will be reported as CORS policy
 errors in the console.
 
 <figure class="w-figure">
-  <img class="w-screenshot w-screenshot-filled" src="console-error.png" alt="CORS-RFC1918 errors will be reported as CORS policy errors in the console.">
+  ![CORS-RFC1918 errors will be reported as CORS policy errors in the console.](console-error.png)
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     CORS-RFC1918 errors will be reported as CORS policy errors in the <b>Console</b>.
   </figcaption>
 </figure>
 
-In the **Network** panel of Chrome DevTools you can enable the **Blocked Requests** 
+In the **Network** panel of Chrome DevTools you can enable the **Blocked Requests**
 checkbox to focus in on blocked requests:
 
 <figure class="w-figure">
-  <img class="w-screenshot w-screenshot-filled" src="cors-error.png" alt="CORS-RFC1918 errors will also be reported as CORS error errors in the Network panel.">
+  ![CORS-RFC1918 errors will also be reported as CORS error errors in the Network panel.](cors-error.png)
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     CORS-RFC1918 errors will also be reported as CORS error errors in the <b>Network</b> panel.
   </figcaption>

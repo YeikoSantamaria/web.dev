@@ -363,7 +363,7 @@ background sync, and unregistering. To obtain information about these events,
 click **Start recording**.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="1-record.png" alt="The record button in DevTools" style="max-width: 75%">
+  ![The record button in DevTools](1-record.png)
   <figcaption class="w-figcaption">
     The record button in DevTools
   </figcaption>

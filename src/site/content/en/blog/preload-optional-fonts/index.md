@@ -69,7 +69,7 @@ font. If the font is not downloaded within 100ms, then the fallback font is used
 occurs.
 
 <figure class="w-figure">
-  <img src="./previous-behavior-fail.png" alt="Diagram showing previous optional font behavior when font fails to load">
+  ![Diagram showing previous optional font behavior when font fails to load](./previous-behavior-fail.png)
   <figcaption class="w-figcaption">Previous <code>font-display: optional</code> behavior in Chrome when font is downloaded <b>after</b> the 100ms block period</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ However, in the case that the font is downloaded before the 100ms block period c
 font is rendered and used on the page.
 
 <figure class="w-figure">
-  <img src="./previous-behavior-pass.png" alt="Diagram showing previous optional font behavior when font loads in time">
+  ![Diagram showing previous optional font behavior when font loads in time](./previous-behavior-pass.png)
   <figcaption class="w-figcaption">Previous <code>font-display: optional</code> behavior in Chrome when font is downloaded <b>before</b> the 100ms block period</figcaption>
 </figure>
 
@@ -94,12 +94,12 @@ has passed. This timeout period is currently set at 100ms, but may possibly chan
 future to optimize performance.
 
 <figure class="w-figure">
-  <img src="./new-behavior-fail.png" alt="Diagram showing new preloaded optional font behavior when font fails to load">
+  ![Diagram showing new preloaded optional font behavior when font fails to load](./new-behavior-fail.png)
   <figcaption class="w-figcaption">New <code>font-display: optional</code> behavior in Chrome when fonts are preloaded and font is downloaded <b>after</b> the 100ms block period (no flash of invisible text)</figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img src="./new-behavior-pass.png" alt="Diagram showing new preloaded optional font behavior when font loads in time">
+  ![Diagram showing new preloaded optional font behavior when font loads in time](./new-behavior-pass.png)
   <figcaption class="w-figcaption">New <code>font-display: optional</code> behavior in Chrome when fonts are preloaded and font is downloaded <b>before</b> the 100ms block period (no flash of invisible text)</figcaption>
 </figure>
 

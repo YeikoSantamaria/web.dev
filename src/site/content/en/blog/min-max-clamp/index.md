@@ -21,7 +21,7 @@ constantly evolving and providing authors increased control. The
 [`max()`](https://developer.mozilla.org/en-US/docs/Web/CSS/max), and
 [`clamp()`](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp) functions,
 now supported in all modern browsers, are among the latest tools in making
-authoring websites and apps more dynamic and responsive. 
+authoring websites and apps more dynamic and responsive.
 
 When it comes to flexible and fluid typography, controlled element resizing, and
 maintaining proper spacing, `min()`, `max()`, and `clamp()` can help.
@@ -40,7 +40,7 @@ year in version 79. This year, with Firefox
 browser parity for `min()`, `max()`, and `clamp()` in all evergreen browsers.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./caniuse.png" alt="" />
+  ![](./caniuse.png)
   <figcaption class="w-figcaption">
     <a href="https://caniuse.com/css-math-functions">Caniuse</a> support table.
   </figcaption>
@@ -94,7 +94,7 @@ Any of these functions can be used anywhere a `<length>`, `<frequency>`,
 `<angle>`, `<time>`, `<percentage>`, `<number>`, or `<integer>` is allowed. You
 can use these on their own (i.e. `font-size: max(0.5vw, 50%, 2rem)`), in
 conjunction with `calc()` (i.e. `font-size: max(calc(0.5vw - 1em), 2rem)`),  or
-composed (i.e. `font-size: max(min(0.5vw, 1em), 2rem)`). 
+composed (i.e. `font-size: max(min(0.5vw, 1em), 2rem)`).
 
 {% Aside %} When using a calculation inside of a `min()`, `max()`, or `clamp()`
 function, you can remove the call to `calc()`. For example, writing `font-size:
@@ -220,11 +220,11 @@ allow for scaling from the min to the max.
 With `clamp()`, you can write this more clearly. Rather than requiring a complex
 string, the browser can do the work for you. Set the minimum acceptable font
 size (for example, `1.5rem` for a title, maximum size (i.e. `3rem`) and ideal
-size of `5vw`. 
+size of `5vw`.
 
 Now, we get typography that scales with the viewport width of the page until it
 reaches the limiting minimum and maximum values, in a much more succinct line of
-code: 
+code:
 
 ```css
 p {
@@ -235,7 +235,7 @@ p {
 {% Aside 'warning' %}
 Limiting how large text can get with `max()` or `clamp()` can cause a WCAG failure
 under [1.4.4 Resize text (AA)](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=144#resize-text)
-, because a user may be unable to scale the text to 200% of its original size. 
+, because a user may be unable to scale the text to 200% of its original size.
 Be certain to [test the results with zoom](https://adrianroselli.com/2019/12/responsive-type-and-zoom.html).
 {% endAside %}
 

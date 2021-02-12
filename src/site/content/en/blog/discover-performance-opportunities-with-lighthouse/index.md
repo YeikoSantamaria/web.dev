@@ -50,14 +50,14 @@ If you have Chrome, then you have DevTools.
 1. In Chrome, go to the page that you want to audit.
 {% Instruction 'devtools', 'ol' %}
 
-<img class="w-screenshot w-screenshot--filled" src="./discover-performance-opportunities-with-lighthouse-1.png" alt="DevTools opened and docked to the right hand side of the screen.">
+![DevTools opened and docked to the right hand side of the screen.](./discover-performance-opportunities-with-lighthouse-1.png)
 
 Click the **Audits** tab. If you don't see this tab, click the &raquo; symbol
 and then select **Audits** from the list. Lighthouse is the
 engine that powers the **Audits** panel. That's why you see an image of a
 lighthouse.
 
-<img class="w-screenshot w-screenshot--filled" src="./discover-performance-opportunities-with-lighthouse-2.png" alt="DevTools opened to the Lighthouse audits panel.">
+![DevTools opened to the Lighthouse audits panel.](./discover-performance-opportunities-with-lighthouse-2.png)
 
 1. Make sure the **Mobile** radio button is selected. When Lighthouse
     audits your page, it will simulate a mobile device's viewport and user
@@ -76,7 +76,7 @@ lighthouse.
     how first-time visitors experience the page.
 1. Click **Run Audits**. After 5 to 10 seconds, Lighthouse shows you a report.
 
-<img class="w-screenshot w-screenshot--filled" src="./discover-performance-opportunities-with-lighthouse-3.png" alt="DevTools showing a Lighthouse audit results report.">
+![DevTools showing a Lighthouse audit results report.](./discover-performance-opportunities-with-lighthouse-3.png)
 
 {% Aside %}
 You can set the configuration options to whatever makes the most sense for
@@ -100,26 +100,26 @@ perfect score. Below the overall score are the metrics scores.
 [Lighthouse v3 Scoring Guide](https://developers.google.com/web/tools/lighthouse/v3/scoring)
 explains how each metric score contributes to the overall score.
 
-<img class="w-screenshot w-screenshot--filled" src="./discover-performance-opportunities-with-lighthouse-4.png" alt="Lighthouse metrics scores showing green, passing scores, and yellow, warning scores.">
+![Lighthouse metrics scores showing green, passing scores, and yellow, warning scores.](./discover-performance-opportunities-with-lighthouse-4.png)
 
 Hover over a metric to learn more about it. Click **Learn more** to read
 documentation about it.
 
-<img class="w-screenshot w-screenshot--filled" src="./discover-performance-opportunities-with-lighthouse-5.png" alt="">
+![](./discover-performance-opportunities-with-lighthouse-5.png)
 
 Below your metrics scores you see screenshots of how the page looked while it
 loaded.
 
-<img class="w-screenshot w-screenshot--filled" src="./discover-performance-opportunities-with-lighthouse-6.png" alt="DevTools' filmstrip view of a page loading.">
+![DevTools' filmstrip view of a page loading.](./discover-performance-opportunities-with-lighthouse-6.png)
 
 Below the screenshots you see opportunities for improving the page's
 performance.
 
-<img class="w-screenshot w-screenshot--filled" src="./discover-performance-opportunities-with-lighthouse-7.png" alt="">
+![](./discover-performance-opportunities-with-lighthouse-7.png)
 
 Click an opportunity to learn more about it.
 
-<img class="w-screenshot w-screenshot--filled" src="./discover-performance-opportunities-with-lighthouse-8.png" alt="An expanded audit titled Defer offscreen images shows a number of image paths that can be optimized.">
+![An expanded audit titled Defer offscreen images shows a number of image paths that can be optimized.](./discover-performance-opportunities-with-lighthouse-8.png)
 
 ## Next steps
 

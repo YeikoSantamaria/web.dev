@@ -94,7 +94,7 @@ by setting the
 command line flag.
 Once Portals are enabled, confirm in DevTools that you have the new shiny `HTMLPortalElement`.
 
-<img class="w-screenshot" src="HTMLPortalElement.png" alt="A screenshot of the DevTools console showing the HTMLPortalElement">
+![A screenshot of the DevTools console showing the HTMLPortalElement](HTMLPortalElement.png)
 
 ## Implement Portals
 
@@ -116,7 +116,7 @@ portal.activate();
 
 It's that simple. Try this code in the DevTools console, the wikipedia page should open up.
 
-<img class="w-screenshot" src="portal-preview-demo.gif" alt="A gif of preview portal style demo">
+![A gif of preview portal style demo](portal-preview-demo.gif)
 
 If you wanted to build something like we showed at Chrome Dev Summit which works just like the demo above,
 the following snippet will be of interest.
@@ -195,7 +195,7 @@ Be sure you access it with Chrome 85 or 86 and turn on the [experimental flag](#
 1. Click on the preview.
 1. The preview will be activated after an animation.
 
-<img class="w-screenshot" src="glitch.gif" alt="A gif of using the glitch demo of using Portals">
+![A gif of using the glitch demo of using Portals](glitch.gif)
 
 ## Check out the spec
 

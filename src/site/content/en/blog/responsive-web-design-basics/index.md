@@ -68,14 +68,14 @@ content to match different screen sizes, whether rendered on a small mobile
 phone or a large desktop monitor.
 
 <figure class="w-figure">
-  <img src="./without-vp-meta.png" width="500" alt="Screenshot of a page with the text hard to read as it is very zoomed out">
+  ![Screenshot of a page with the text hard to read as it is very zoomed out](./without-vp-meta.png)
   <figcaption class="w-figcaption">
     An example of how the page loads in a device without the viewport meta tag. <a href="https://without-vp-meta.glitch.me/">See this example on Glitch</a>.
   </figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img src="./with-vp-meta.png" width="500" alt="Screenshot of the same page with the text at a size that can be read">
+  ![Screenshot of the same page with the text at a size that can be read](./with-vp-meta.png)
   <figcaption class="w-figcaption">
     An example of how the page loads in a device with the viewport meta tag. <a href="https://with-vp-meta.glitch.me/">See this example on Glitch</a>.
   </figcaption>
@@ -164,7 +164,7 @@ Once the viewport becomes smaller than the total width of the columns, we have t
 to see the content.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./fixed-width-layout.jpg" alt="Screenshot of a two-column layout with most of the second column outside the viewport">
+  ![Screenshot of a two-column layout with most of the second column outside the viewport](./fixed-width-layout.jpg)
   <figcaption class="w-figcaption">
     A floated layout using pixels. <a href="https://layout-floats-px.glitch.me/">See this example on Glitch</a>.
   </figcaption>
@@ -369,7 +369,7 @@ Let's work through the example we saw at the beginning: the weather forecast.
 The first step is to make the forecast look good on a small screen.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./weather-1-2x.png" width="400" alt="Screenshot of a weather app at a mobile width">
+  ![Screenshot of a weather app at a mobile width](./weather-1-2x.png)
   <figcaption class="w-figcaption">
     The app at a narrow width.
   </figcaption>
@@ -380,7 +380,7 @@ and the forecast simply doesn't look as good.
 The decision is somewhat subjective, but above `600px` is certainly too wide.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./weather-2-2x.png" width="400" alt="Screenshot of a weather app with wide gaps between items">
+  ![Screenshot of a weather app with wide gaps between items](./weather-2-2x.png)
   <figcaption class="w-figcaption">
     The app at a point where we feel we should tweak the design.
   </figcaption>
@@ -466,14 +466,14 @@ Thus, each time the width of a text block grows past about 10 words,
 consider adding a breakpoint.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./readability-narrow.jpg" width="400" alt="Screenshot of a a page of text on a mobile device">
+  ![Screenshot of a a page of text on a mobile device](./readability-narrow.jpg)
   <figcaption class="w-figcaption">
     The text as read on a mobile device.
   </figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./readability-wide.jpg" alt="Screenshot of a a page of text on a desktop browser">
+  ![Screenshot of a a page of text on a desktop browser](./readability-wide.jpg)
   <figcaption class="w-figcaption">
     The text as read on a desktop browser with a breakpoint added to constrain the line length.
   </figcaption>
@@ -517,14 +517,14 @@ but Chrome DevTools has a built-in feature that makes it easy to see how a page 
 under different breakpoints.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./devtools-large.png" alt="Screenshot of DevTools with our weather app open and a width of 822 pixels selected.">
+  ![Screenshot of DevTools with our weather app open and a width of 822 pixels selected.](./devtools-large.png)
   <figcaption class="w-figcaption">
     DevTools showing the weather app as it looks at a wider viewport size.
   </figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./devtools-small.png" alt="Screenshot of DevTools with our weather app open and a width of 436 pixels selected.">
+  ![Screenshot of DevTools with our weather app open and a width of 436 pixels selected.](./devtools-small.png)
   <figcaption class="w-figcaption">
     DevTools showing the weather app as it looks at a narrower viewport size.
   </figcaption>

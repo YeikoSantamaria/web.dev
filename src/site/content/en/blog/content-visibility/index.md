@@ -34,7 +34,7 @@ initial user load much faster. It also allows for faster interactions with the
 on-screen content. Pretty neat.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="demo.jpg" alt="demo with figures representing network results">
+  ![demo with figures representing network results](demo.jpg)
   <figcaption class="w-figcaption">
     In our article demo, applying <code>content-visibility: auto</code> to chunked content areas gives a <b>7x</b> rendering performance boost on initial load. Read on to learn more.</a>
   </figcaption>
@@ -92,7 +92,7 @@ best](https://developers.google.com/web/updates/2016/06/css-containment), or you
 can use another CSS property called `content-visibility` to apply the needed
 containment automatically. `content-visibility` ensures that you get the largest
 performance gains the browser can provide with minimal effort from you as a
-developer. 
+developer.
 
 The content-visibility property accepts several values, but `auto` is the one
 that provides immediate performance improvements. An element that has
@@ -140,7 +140,7 @@ the elements that may have shifted as a result of new updates. This is rendering
 work. This takes time.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="travelblog.jpg" alt="A screenshot of a travel blog.">
+  ![A screenshot of a travel blog.](travelblog.jpg)
   <figcaption class="w-figcaption">
     An example of a travel blog. See <a href="https://codepen.io/una/pen/rNxEWLo">Demo on Codepen</a>
   </figcaption>
@@ -166,7 +166,7 @@ What is the work that you need to do in order to reap these benefits? First, we
 chunk the content into sections:
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="travelblog-chunked.jpg" alt="An annotated screenshot of chunking content into sections with a CSS class.">
+  ![An annotated screenshot of chunking content into sections with a CSS class.](travelblog-chunked.jpg)
   <figcaption class="w-figcaption">
     Example of chunking content into sections with the <code>story</code> class applied, to receive <code>content-visibility: auto</code>. See <a href="https://codepen.io/vmpstr/pen/xxZoyMb">Demo on Codepen</a>
   </figcaption>
@@ -192,7 +192,7 @@ In order to realize the potential benefits of `content-visibility`, the browser
 needs to apply size containment to ensure that the rendering results of contents
 do not affect the size of the element in any way. This means that the element
 will lay out as if it was empty. If the element does not have a height specified
-in a regular block layout, then it will be of 0 height. 
+in a regular block layout, then it will be of 0 height.
 
 This might not be ideal, since the size of the scrollbar will shift, being
 reliant on each story having a non-zero height.
@@ -215,10 +215,10 @@ is on-screen, while leveraging the benefits of cached rendering state? Enter:
 The `content-visibility: hidden` property gives you all of the same benefits of
 unrendered content and cached rendering state as `content-visibility: auto` does
 off-screen. However, unlike with `auto`, it does not automatically start to
-render on-screen. 
+render on-screen.
 
 This gives you more control, allowing you to hide an element's contents and
-later unhide them quickly. 
+later unhide them quickly.
 
 Compare it to other common ways of hiding element's contents:
 

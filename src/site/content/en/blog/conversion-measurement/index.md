@@ -84,7 +84,7 @@ address in a privacy-preserving way the use cases that third-party cookies solve
 - [Trust Tokens](/trust-tokens/) help combat fraud and distinguish bots from humans.
 
 <figure class="w-figure">
-  <img src="./all-apis.jpg" alt="Overview of some privacy sandbox APIs: trust tokens and conversion measurement (aggregate and event)">
+  ![Overview of some privacy sandbox APIs: trust tokens and conversion measurement (aggregate and event)](./all-apis.jpg)
 </figure>
 
 **How does the Event Conversion Measurement API compare to third-party cookies?**
@@ -111,7 +111,7 @@ proposal](https://github.com/WICG/conversion-measurement-api#privacy-considerati
 ### How it works
 
 <figure class="w-figure">
-  <img src="./diagram-overview.jpg" alt="Diagram: overview of the conversion measurement API steps">
+  ![Diagram: overview of the conversion measurement API steps](./diagram-overview.jpg)
 </figure>
 
 This API can be used with two types of links (`<a>` elements) used for advertising:
@@ -199,7 +199,7 @@ How much can `adtech.example` learn about web users?
 #### With third-party cookies
 
 <figure class="w-figure">
-  <img src="./with-cookies.jpg" alt="Diagram: how third-party cookies enable cross-site user recognition">
+  ![Diagram: how third-party cookies enable cross-site user recognition](./with-cookies.jpg)
 </figure>
 
 `adtech.example` relies on a **a third-party cookie used as a unique cross-site identifier** to
@@ -215,7 +215,7 @@ just `news.example` and `shoes.example`—a user's behavior can be tracked acros
 #### With the Event Conversion Measurement API
 
 <figure class="w-figure">
-  <img src="./with-api.jpg" alt="Diagram: how the API enables conversion measurement without cross-site user recognition">
+  ![Diagram: how the API enables conversion measurement without cross-site user recognition](./with-api.jpg)
     <figcaption class="w-figcaption">
     "Ad ID" on the cookies diagram and "Click ID" are both identifiers that enable mapping
     to detailed data. On this diagram, it's called "Click ID" because only click-through conversion
@@ -358,7 +358,7 @@ In Chrome, report scheduling works as follows:
 </div>
 
 <figure class="w-figure">
-  <img src="./report-timing.jpg" alt="Chronology of what reports are sent when">
+  ![Chronology of what reports are sent when](./report-timing.jpg)
 </figure>
 
 See [Sending Scheduled
@@ -378,7 +378,7 @@ would work with the current API. Future iterations of this API [may be different
 ### Ad click (steps 1 to 5)
 
 <figure class="w-figure">
-  <img src="./steps-1.jpg" alt="Diagram: ad click and click storage">
+  ![Diagram: ad click and click storage](./steps-1.jpg)
 </figure>
 
 An `<a>` ad element is loaded on a publisher site by `adtech.example` within an iframe.
@@ -396,7 +396,7 @@ attributes:
   href="https://advertiser.example/shoes07"
   target="_blank"
 >
-  <img src="/images/shoe.jpg" alt="shoe" />
+  ![shoe](/images/shoe.jpg)
 </a>
 ```
 
@@ -422,7 +422,7 @@ This code specifies the following:
       <tr>
         <td><code>conversiondestination</code> (required): the <b><a href="https://web.dev/same-site-same-origin/#site" noopener>eTLD+1</a></b> where a conversion is expected for this ad.</td>
         <td>(no default)</td>
-        <td><code>https://advertiser.example</code>.<br/>If the <code>conversiondestination</code> is <code>https://advertiser.example</code>, conversions on both <code>https://advertiser.example</code> and <code>https://shop.advertiser.example</code> will be attributed.<br/>The same happens if the <code>conversiondestination</code> is <code>https://shop.advertiser.example</code>: conversions on both <code>https://advertiser.example</code> and <code>https://shop.advertiser.example</code> will be attributed. 
+        <td><code>https://advertiser.example</code>.<br/>If the <code>conversiondestination</code> is <code>https://advertiser.example</code>, conversions on both <code>https://advertiser.example</code> and <code>https://shop.advertiser.example</code> will be attributed.<br/>The same happens if the <code>conversiondestination</code> is <code>https://shop.advertiser.example</code>: conversions on both <code>https://advertiser.example</code> and <code>https://shop.advertiser.example</code> will be attributed.
         </td>
       </tr>
       <tr>
@@ -480,7 +480,7 @@ committed, the browser stores an object that includes `impressiondata`, `convers
 ### Conversion and report scheduling (steps 6 to 9)
 
 <figure class="w-figure">
-  <img src="./steps-2.jpg" alt="Diagram: conversion and report scheduling">
+  ![Diagram: conversion and report scheduling](./steps-2.jpg)
 </figure>
 
 Either directly after clicking the ad, or later on—for example, on the next day—the user visits
@@ -545,7 +545,7 @@ the two-day-after-click mark if the browser is running.
 ### Sending the report (steps 10 and 11)
 
 <figure class="w-figure">
-  <img src="./steps-3.jpg" alt="Diagram: browser sending the report">
+  ![Diagram: browser sending the report](./steps-3.jpg)
 </figure>
 
 Once the scheduled time to send the report is reached, the browser sends the **conversion report**:

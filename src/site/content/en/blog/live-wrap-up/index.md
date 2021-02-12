@@ -52,7 +52,7 @@ The three pillars of the 2020 Core Web Vitals are loading, interactivity, and vi
 page content, which are captured by the following metrics:
 
 <figure class="w-figure">
-  <img src="corewebvitals.png" alt="An illustration of the Core Web Vitals.">
+  ![An illustration of the Core Web Vitals.](corewebvitals.png)
 </figure>
 
 + [Largest Contentful Paint](/lcp/) measures perceived load speed and
@@ -84,7 +84,7 @@ web development best practices. We worked with the build tool authors to
 make sure we used their tools correctly and represented them fairly.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="toolingreport.png" alt="A screenshot of the tooling.report UI.">
+  ![A screenshot of the tooling.report UI.](toolingreport.png)
 </figure>
 
 The initial release of tooling.report covers webpack v4, Rollup v2, Parcel v2, and Browserify with Gulp,
@@ -188,7 +188,7 @@ and [COEP issues](/coop-coep/). Watch the web.dev LIVE session on [finding and f
 problems with the Issues tab](https://youtu.be/1TbkSxQb4bI) to get started.
 
 <figure class="w-figure">
-  <img class="w-screenshot w-screenshot--filled" src="issues.png" alt="A screenshot of the Issues tab.">
+  ![A screenshot of the Issues tab.](issues.png)
 </figure>
 
 Moreover, with the [Core Web Vitals](/vitals/#core-web-vitals) becoming one of the

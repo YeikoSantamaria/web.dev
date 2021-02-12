@@ -32,7 +32,7 @@ many moving targets, I fail to focus on anything, and end up lost and with a fee
 visual overload, almost like staring at an anthill 🐜.
 
 <figure>
-  <img src="ice-skating.jpg" width="580" height="320" alt="Throng of feet of ice skating people">
+  ![Throng of feet of ice skating people](ice-skating.jpg)
   <figcaption>Visual overload in real life.</figcaption>
 </figure>
 

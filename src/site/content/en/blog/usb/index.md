@@ -1,6 +1,6 @@
 ---
 title: Access USB Devices on the Web
-subhead: | 
+subhead: |
   The WebUSB API makes USB safer and easier to use by bringing it to the Web.
 authors:
   - beaufortfrancois
@@ -9,7 +9,7 @@ updated: 2020-10-19
 hero: hero.jpg
 thumbnail: thumbnail.jpg
 alt: A photo of an Arduino Micro board
-description: | 
+description: |
   The WebUSB API makes USB safer and easier to use by bringing it to the Web.
 tags:
   - blog # blog is a required tag for the article to show up in the blog.
@@ -127,7 +127,7 @@ The `classCode`, `protocolCode`, `serialNumber`, and `subclassCode` keys can
 also be defined there as well.
 
 <figure class="w-figure">
-  <img src="./usb-device-chooser.png" class="w-screenshot" alt="Screenshot of the USB device user prompt in Chrome">
+  ![Screenshot of the USB device user prompt in Chrome](./usb-device-chooser.png)
   <figcaption class="w-figcaption">USB device user prompt.</figcaption>
 </figure>
 
@@ -157,7 +157,7 @@ defining a landing page URL, Chrome will show a persistent notification when the
 USB device is plugged in. Clicking this notification will open the landing page.
 
 <figure class="w-figure">
-  <img src="./web-usb-notification.png" class="w-screenshot" alt="Screenshot of the WebUSB notification in Chrome">
+  ![Screenshot of the WebUSB notification in Chrome](./web-usb-notification.png)
   <figcaption class="w-figcaption">WebUSB notification.</figcaption>
 </figure>
 
@@ -288,7 +288,7 @@ Debugging USB in Chrome is easier with the internal page `chrome://device-log`
 where you can see all USB device related events in one single place.
 
 <figure class="w-figure">
-  <img src="./web-usb-device-log-page.png" class="w-screenshot"  alt="Screenshot of the device log page to debug WebUSB in Chrome">
+  ![Screenshot of the device log page to debug WebUSB in Chrome](./web-usb-device-log-page.png)
   <figcaption class="w-figcaption">Device log page in Chrome for debugging the WebUSB API.</figcaption>
 </figure>
 
@@ -297,7 +297,7 @@ to simulate connection and disconnection of virtual WebUSB devices.
 This is be useful for doing UI testing without for real hardware.
 
 <figure class="w-figure">
-  <img src="./web-usb-internals-page.png" class="w-screenshot" alt="Screenshot of the internal page to debug WebUSB in Chrome">
+  ![Screenshot of the internal page to debug WebUSB in Chrome](./web-usb-internals-page.png)
   <figcaption class="w-figcaption">Internal page in Chrome for debugging the WebUSB API.</figcaption>
 </figure>
 

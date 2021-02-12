@@ -212,13 +212,13 @@ there's an issue with COEP, you should see
 column.
 
 <figure class="w-figure">
-  <img class="w-screenshot w-screenshot-filled" src="devtools1.jpg" alt="COEP issues in the Status column of the Network panel.">
+  ![COEP issues in the Status column of the Network panel.](devtools1.jpg)
 </figure>
 
 You can then click the entry to see more details.
 
 <figure class="w-figure">
-  <img class="w-screenshot w-screenshot-filled" src="devtools2.jpg" alt="Details of the COEP issue are shown in the Headers tab after clicking a network resource in the Network panel.">
+  ![Details of the COEP issue are shown in the Headers tab after clicking a network resource in the Network panel.](devtools2.jpg)
 </figure>
 
 {% Aside %}
@@ -299,7 +299,7 @@ clone](https://glitch.com/edit/#!/reporting-endpoint) and customize for your own
 purposes.
 
 <figure class="w-figure">
-  <img class="w-screenshot w-screenshot-filled" src="reporting-endpoint.png" alt="Build your own reporting endpoint by forking a lightweight sample implementation on glitch.com.">
+  ![Build your own reporting endpoint by forking a lightweight sample implementation on glitch.com.](reporting-endpoint.png)
 </figure>
 
 All you have to do is to put the URL indicated in the page as the reporting

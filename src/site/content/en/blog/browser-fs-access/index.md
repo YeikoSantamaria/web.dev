@@ -266,7 +266,7 @@ to my iPhone Downloads folder, open the file on my desktop (after transferring i
 modify the file, and overwrite it with my changes, or even save it as a new file.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="iphone-original.png" width="300" alt="An Excalidraw drawing on an iPhone.">
+  ![An Excalidraw drawing on an iPhone.](iphone-original.png)
   <figcaption class="w-figcaption">
     Starting an Excalidraw drawing on an iPhone where the File System Access API is not supported,
     but where a file can be saved (downloaded) to the Downloads folder.</a>)
@@ -274,7 +274,7 @@ modify the file, and overwrite it with my changes, or even save it as a new file
 </figure>
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="chrome-modify.png" alt="The modified Excalidraw drawing on Chrome on the desktop.">
+  ![The modified Excalidraw drawing on Chrome on the desktop.](chrome-modify.png)
   <figcaption class="w-figcaption">
     Opening and modifying the Excalidraw drawing on the desktop where the File System Access API is supported
     and thus the file can be accessed via the API.
@@ -282,7 +282,7 @@ modify the file, and overwrite it with my changes, or even save it as a new file
 </figure>
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="chrome-oversave.png" alt="Overwriting the original file with the modifications.">
+  ![Overwriting the original file with the modifications.](chrome-oversave.png)
   <figcaption class="w-figcaption">
     Overwriting the original file with the modifications to the original Excalidraw drawing file.
     The browser shows a dialog asking me whether this is fine.
@@ -290,7 +290,7 @@ modify the file, and overwrite it with my changes, or even save it as a new file
 </figure>
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="chrome-save-as.png" alt="Saving the modifications to a new Excalidraw drawing file.">
+  ![Saving the modifications to a new Excalidraw drawing file.](chrome-save-as.png)
   <figcaption class="w-figcaption">
     Saving the modifications to a new Excalidraw file. The original file remains untouched.
   </figcaption>
@@ -347,14 +347,14 @@ The screenshots below show the difference between Excalidraw's responsive main a
 Note how on iPhone the **Save As** button is missing.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="save.png" alt="Excalidraw app toolbar on iPhone with just a 'Save' button." width="300">
+  ![Excalidraw app toolbar on iPhone with just a 'Save' button.](save.png)
   <figcaption class="w-figcaption">
     Excalidraw app toolbar on iPhone with just a <strong>Save</strong> button.
   </figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="save-save-as.png" alt="Excalidraw app toolbar on Chrome desktop with a 'Save' and a 'Save As' button." width="300">
+  ![Excalidraw app toolbar on Chrome desktop with a 'Save' and a 'Save As' button.](save-save-as.png)
   <figcaption class="w-figcaption">
     Excalidraw app toolbar on Chrome  with a <strong>Save</strong> and a focused <strong>Save As</strong> button.
   </figcaption>

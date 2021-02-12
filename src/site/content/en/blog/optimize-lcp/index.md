@@ -122,7 +122,7 @@ content has changed.
 The following chart shows how LCP distributions have been reduced on a site using this pattern:
 
 <figure class="w-figure">
-  <img src="./lcp-sw-caching.png" alt="Largest Contentful Paint distributions before and after HTML caching">
+  ![Largest Contentful Paint distributions before and after HTML caching](./lcp-sw-caching.png)
   <figcaption class="w-figcaption">Largest Contentful Paint distribution, for page loads with and without a service worker - <a href="https://philipwalton.com/articles/smaller-html-payloads-with-service-workers/">philipwalton.com</a></figcaption>
 </figure>
 
@@ -201,7 +201,7 @@ every build:
 +   For Rollup: [rollup-plugin-css-porter](https://www.npmjs.com/package/rollup-plugin-css-porter)
 
 <figure class="w-figure">
-  <img src="./lcp-change-minify-css.png" alt="Example of LCP improvement: Before and after minifying CSS">
+  ![Example of LCP improvement: Before and after minifying CSS](./lcp-change-minify-css.png)
   <figcaption class="w-figcaption">Example of LCP improvement: Before and after minifying CSS</figcaption>
 </figure>
 
@@ -228,7 +228,7 @@ To optimize:
     <link rel="preload" href="stylesheet.css" as="style" onload="this.rel='stylesheet'">
     ```
 <figure class="w-figure">
-  <img src="./lcp-defer-css.png" alt="Example of LCP improvement: Before and after deferring non-critical CSS">
+  ![Example of LCP improvement: Before and after deferring non-critical CSS](./lcp-defer-css.png)
   <figcaption class="w-figcaption">Example of LCP improvement: Before and after deferring non-critical CSS</figcaption>
 </figure>
 
@@ -241,7 +241,7 @@ For more details, refer to the [Defer non-critical CSS](/defer-non-critical-css/
 Inline any critical-path CSS used for above-the-fold content by including it directly in `<head>.`
 
 <figure class="w-figure">
-  <img src="./critical-css.png" class="w-screenshot w-screenshot--filled" alt="Critical CSS inlined">
+  ![Critical CSS inlined](./critical-css.png)
   <figcaption class="w-figcaption">Critical CSS inlined</figcaption>
 </figure>
 
@@ -259,7 +259,7 @@ examples:
     critical CSS and lazy-loads the rest
 
 <figure class="w-figure">
-  <img src="./lcp-critical-css.png" alt="Example of LCP improvement: Before and after inlining critical CSS">
+  ![Example of LCP improvement: Before and after inlining critical CSS](./lcp-critical-css.png)
   <figcaption class="w-figcaption">Example of LCP improvement: Before and after inlining critical CSS</figcaption>
 </figure>
 
@@ -391,7 +391,7 @@ LCP.
     overhead and prevents delays when requests are made, especially when using high compression ratios.
 
 <figure class="w-figure">
-  <img src="./lcp-compression.png" alt="Example of LCP improvement: Before and after Brotli compression ">
+  ![Example of LCP improvement: Before and after Brotli compression ](./lcp-compression.png)
   <figcaption class="w-figcaption">Example of LCP improvement: Before and after Brotli compression </figcaption>
 </figure>
 
@@ -512,7 +512,7 @@ they would be with a server-side rendering solution that dynamically renders eac
 it's requested.
 
 <figure class="w-figure">
-  <img src="./lcp-prerendering.png" alt="Example of LCP improvement: Before and after pre-rendering">
+  ![Example of LCP improvement: Before and after pre-rendering](./lcp-prerendering.png)
   <figcaption class="w-figcaption">Example of LCP improvement: Before and after pre-rendering</figcaption>
 </figure>
 

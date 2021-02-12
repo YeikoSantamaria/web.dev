@@ -55,7 +55,7 @@ Paint](/first-meaningful-paint/), [Time to Interactive](/interactive/), and
 [First CPU Idle](/first-cpu-idle/).
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./lighthouse-performance-score.png" alt="Comparison of Lighthouse performance score formulas in versions 5 and 6.">
+  ![Comparison of Lighthouse performance score formulas in versions 5 and 6.](./lighthouse-performance-score.png)
 </figure>
 
 See [Lighthouse performance scoring](https://web.dev/performance-scoring/) for detailed
@@ -114,7 +114,7 @@ or [contact the Lighthouse team](https://github.com/GoogleChrome/lighthouse-stac
 ## Coming soon: Lighthouse plugins as Chrome Extensions
 
 <figure class="w-figure">
-  <img src="./lighthouse-plugin-icon.png" alt="Lighthouse plugin icon." width="250">
+  ![Lighthouse plugin icon.](./lighthouse-plugin-icon.png)
 </figure>
 
 [Lighthouse
@@ -131,7 +131,7 @@ CLI](https://developers.google.com/web/tools/lighthouse#cli), but the goal is to
 enable running them in the DevTools **Audits** panel too.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./lighthouse-plugin-devtools.png" alt="Chrome DevTools Audits panel with options for running Lighthouse plugins for Google Publisher Ads and User Experience." width="400">
+  ![Chrome DevTools Audits panel with options for running Lighthouse plugins for Google Publisher Ads and User Experience.](./lighthouse-plugin-devtools.png)
   <figcaption class="w-figcaption">Community Plugins in DevTools Audits panel (beta)</figcaption>
 </figure>
 

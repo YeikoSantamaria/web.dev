@@ -53,7 +53,7 @@ the PTZ constraints as shown below. This will prompt the user to grant both
 regular camera and camera with PTZ permissions.
 
 <figure class="w-figure">
-  <img src="./camera-ptz-user-prompt.jpg" class="w-screenshot" alt="Screenshot of a camera PTZ user prompt in Chrome for macOS.">
+  ![Screenshot of a camera PTZ user prompt in Chrome for macOS.](./camera-ptz-user-prompt.jpg)
   <figcaption class="w-figcaption">Camera PTZ user prompt.</figcaption>
 </figure>
 
@@ -109,7 +109,7 @@ internal `about://media-internals` page and check out the "Pan-Tilt-Zoom" column
 in the "Video Capture" tab.
 
 <figure class="w-figure">
-  <img src="./media-internals-page.jpg" class="w-screenshot" alt="Screenshot of the internal page in Chrome OS to debug PTZ camera support.">
+  ![Screenshot of the internal page in Chrome OS to debug PTZ camera support.](./media-internals-page.jpg)
   <figcaption class="w-figcaption">Internal page to debug PTZ camera support.</figcaption>
 </figure>
 

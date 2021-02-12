@@ -62,14 +62,14 @@ main thread for more than 50 milliseconds. Any millisecond over that is counted
 towards that task's blocking time.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./tbt.png" alt="A diagram representing a 150 millisecond task which has 100 miliseconds of blocking time.">
+  ![A diagram representing a 150 millisecond task which has 100 miliseconds of blocking time.](./tbt.png)
 </figure>
 
 The Total Blocking Time for a page is the sum of the blocking times of all long
 tasks that occured between FCP and TTI.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./tbt2.png" alt="A diagram representing a five tasks with 60 miliseconds of total blocking time out of 270 milliseconds of main thread time.">
+  ![A diagram representing a five tasks with 60 miliseconds of total blocking time out of 270 milliseconds of main thread time.](./tbt2.png)
 </figure>
 
 While Time to Interactive does a good job of identifying when the main thread

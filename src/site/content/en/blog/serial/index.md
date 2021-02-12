@@ -130,7 +130,7 @@ const { usbProductId, usbVendorId } = port.getInfo();
 ```
 
 <figure class="w-figure">
-  <img src="./serial-port-prompt.jpg" class="w-screenshot" alt="Screenshot of a serial port prompt on a website">
+  ![Screenshot of a serial port prompt on a website](./serial-port-prompt.jpg)
   <figcaption class="w-figcaption">User prompt for selecting a BBC micro:bit</figcaption>
 </figure>
 
@@ -151,7 +151,7 @@ const port = await navigator.serial.requestPort();
 // Wait for the serial port to open.
 await port.open({ baudRate: 9600 });
 ```
- 
+
 You can also specify any of the options below when opening a serial port. These
 options are optional and have convenient [default values].
 
@@ -427,7 +427,7 @@ the widget, so that by the time it gets to its final destination, it's a fully
 functioning widget.
 
 <figure class="w-figure">
-  <img src="./aeroplane-factory.jpg" alt="Photo of an aeroplane factory">
+  ![Photo of an aeroplane factory](./aeroplane-factory.jpg)
   <figcaption class="w-figcaption">World War II Castle Bromwich Aeroplane Factory</figcaption>
 </figure>
 
@@ -492,7 +492,7 @@ Debugging the Web Serial API in Chrome is easy with the internal page,
 single place.
 
 <figure class="w-figure">
-  <img src="./device-log-page-screenshot.jpg" class="w-screenshot" alt="Screenshot of the internal page for debugging the Web Serial API.">
+  ![Screenshot of the internal page for debugging the Web Serial API.](./device-log-page-screenshot.jpg)
   <figcaption class="w-figcaption">Internal page in Chrome for debugging the Web Serial API.</figcaption>
 </figure>
 
@@ -582,7 +582,7 @@ Aeroplane factory photo by [Birmingham Museums Trust] on [Unsplash].
 [Betaflight Configurator]: https://github.com/betaflight/betaflight-configurator
 [Espruino Web IDE]: http://espruino.com/ide
 [Microsoft MakeCode]: https://www.microsoft.com/en-us/makecode
-[explainer]: https://github.com/reillyeon/serial/blob/gh-pages/EXPLAINER.md  
+[explainer]: https://github.com/reillyeon/serial/blob/gh-pages/EXPLAINER.md
 [spec]: https://reillyeon.github.io/serial/
 [default values]: https://reillyeon.github.io/serial/#dom-serialoptions
 [Streams API concepts]: https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts

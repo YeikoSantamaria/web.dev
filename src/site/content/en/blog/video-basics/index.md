@@ -157,14 +157,14 @@ window before the video starts playing:
 ```
 
 <figure class="w-figure">
-  <img src="no-poster.png" alt="A video without a poster shows a black screen before it starts.">
+  ![A video without a poster shows a black screen before it starts.](no-poster.png)
 </figure>
 {% Compare 'worse', 'No poster image' %}
   A video without a poster shows a black screen before it starts.
 {% endCompare %}
 
 <figure class="w-figure">
-  <img src="poster.png" alt="A video with a poster is much more engaging.">
+  ![A video with a poster is much more engaging.](poster.png)
 </figure>
 {% Compare 'better', 'With a poster image' %}
   A video with a poster is much more engaging.

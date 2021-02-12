@@ -129,17 +129,17 @@ so they were able to implement the component once, and deploy it everywhere,
 as shown in the screenshots below.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="www.bettycrocker.com.png" alt="BettyCrocker.com wake lock toggle" width="600">
+  ![BettyCrocker.com wake lock toggle](www.bettycrocker.com.png)
   <figcaption class="w-figcaption">BettyCrocker.com wake lock toggle.</figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="www.pillsbury.com.png" alt="Pillsbury.com wake lock toggle" width="600">
+  ![Pillsbury.com wake lock toggle](www.pillsbury.com.png)
   <figcaption class="w-figcaption">Pillsbury.com wake lock toggle.</figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="www.tablespoon.com.png" alt="Tablespoon.com wake lock toggle" width="600">
+  ![Tablespoon.com wake lock toggle](www.tablespoon.com.png)
   <figcaption class="w-figcaption">Tablespoon.com wake lock toggle.</figcaption>
 </figure>
 

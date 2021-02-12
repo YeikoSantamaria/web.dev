@@ -78,7 +78,7 @@ In the early days of the web, developers would add `width` and `height` attribut
 
 
 ```html
-<img src="puppy.jpg" width="640" height="360" alt="Puppy with balloons">
+![Puppy with balloons](puppy.jpg)
 ```
 
 You may notice `width` and `height` above do not include units. These "pixel" dimensions would ensure a 640x360 area would be reserved. The image would stretch to fit this space, regardless of whether the true dimensions matched or not.
@@ -111,7 +111,7 @@ Modern browsers now set the default aspect ratio of images based on an image's w
 
 ```html
 <!-- set a 640:360 i.e a 16:9 - aspect ratio -->
-<img src="puppy.jpg" width="640" height="360" alt="Puppy with balloons">
+![Puppy with balloons](puppy.jpg)
 ```
 
 …and the [UA stylesheets](https://developer.mozilla.org/docs/Web/CSS/Cascade#User-agent_stylesheets) of all browsers add a [default aspect ratio](https://html.spec.whatwg.org/multipage/rendering.html#attributes-for-embedded-content-and-images) based on the element's existing `width` and `height` attributes:
@@ -163,7 +163,7 @@ Pages may wish to include a cropped shot of an image on narrow viewports with th
 <picture>
   <source media="(max-width: 799px)" srcset="puppy-480w-cropped.jpg">
   <source media="(min-width: 800px)" srcset="puppy-800w.jpg">
-  <img src="puppy-800w.jpg" alt="Puppy with balloons">
+  ![Puppy with balloons](puppy-800w.jpg)
 </picture>
 ```
 
@@ -343,7 +343,7 @@ I'm happy to share there are a number of tools available to measure and debug Cu
 The [Performance panel](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance) in DevTools highlights layout shifts in the **Experience** section as of Chrome 84. The **Summary** view for a `Layout Shift` record includes the cumulative layout shift score as well as a rectangle overlay showing the affected regions.
 
 <figure class="w-figure">
-  <img src="Optimize-Cumulative12.jpg" alt="Layout Shift records being displayed in the Chrome DevTools performance panel when expanding the Experience section">
+  ![Layout Shift records being displayed in the Chrome DevTools performance panel when expanding the Experience section](Optimize-Cumulative12.jpg)
   <figcaption class="w-figcaption">
 After recording a new trace in the Performance panel, the <b>Experience</b> section of the results is populated with a red-tinted bar displaying a <code>Layout Shift</code> record. Clicking the record allows you to drill down into impacted elements (e.g. note the moved from/to entries).
   </figcaption>

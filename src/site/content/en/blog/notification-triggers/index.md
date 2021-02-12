@@ -185,7 +185,7 @@ notifications, list scheduled notifications, and cancel them. The source code is
 [Glitch][demo-source].
 
 <figure class="w-figure w-figure--fullbleed">
-  <img src="demo.png" alt="A screenshot of the Notification Triggers demo web app.">
+  ![A screenshot of the Notification Triggers demo web app.](demo.png)
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     The Notification Triggers <a href="https://notification-triggers.glitch.me/">demo</a>.
   </figcaption>

@@ -27,7 +27,7 @@ However, in the following cases, you'll need HTTPS for local development:
 - Using a custom hostname
 
   <figure class="w-figure">
-    <img src="./when-to-use-local-https.png" alt="A list of cases when you need to use HTTPS for local development.">
+    ![A list of cases when you need to use HTTPS for local development.](./when-to-use-local-https.png)
     <figcaption class="w-figcaption">When to use HTTPS for local development.</figcaption>
   </figure>
 
@@ -68,7 +68,7 @@ You need to use HTTPS for local development in the following cases:
 - You need to locally test third-party libraries or APIs that require HTTPS (for example OAuth).
 - You're not using `localhost`, but a custom host name for local development, for example `mysite.example`. Typically, this means you've overridden your local hosts file:
   <figure class="w-figure">
-    <img src="./hosts.jpg" alt="Screenshot of a terminal editing a hosts file">
+    ![Screenshot of a terminal editing a hosts file](./hosts.jpg)
     <figcaption class="w-figcaption">Editing a hosts file to add a custom hostname.</figcaption>
   </figure>
 

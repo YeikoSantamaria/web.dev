@@ -36,7 +36,7 @@ feedback:
 ### Dark mode before *Dark Mode*
 
 <figure class="w-figure w-figure--inline-right">
-  <img style="height: 175px; width: auto;" src="green-screen.jpg" alt="Green screen computer monitor" height="480" width="640">
+  ![Green screen computer monitor](green-screen.jpg)
   <figcaption class="w-figcaption">Green screen (<a href="https://commons.wikimedia.org/wiki/File:Compaq_Portable_and_Wordperfect.JPG">Source</a>)</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Because text was displayed in green and the rest of the screen was black, these 
 [green screens](https://commons.wikimedia.org/wiki/File:Schneider_CPC6128_with_green_monitor_GT65,_start_screen.jpg).
 
 <figure class="w-figure w-figure--inline-left">
-  <img style="height: 175px; width: auto;" src="word-processing.jpg" alt="Dark-on-white word processing" height="551" width="698">
+  ![Dark-on-white word processing](word-processing.jpg)
   <figcaption class="w-figcaption">Dark-on-white (<a href="https://www.youtube.com/watch?v=qKkABzt0Zqg">Source</a>)</figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ With the advent of more sophisticated <abbr title="What You See Is What You Get"
 the idea of making the virtual document resemble a physical sheet of paper became popular.
 
 <figure class="w-figure w-figure--inline-right">
-  <img style="height: 175px; width: auto;" src="worldwideweb.png" alt="Dark-on-white webpage in the WorldWideWeb browser" height="600" width="800">
+  ![Dark-on-white webpage in the WorldWideWeb browser](worldwideweb.png)
   <figcaption class="w-figcaption">The WorldWideWeb browser (<a href="https://commons.wikimedia.org/wiki/File:WorldWideWeb_FSF_GNU.png">Source</a>)</figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ on a light background, a baseline assumption that is also hard-coded in user age
 [Chrome's](https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css).
 
 <figure class="w-figure w-figure--inline-left">
-  <img style="height: 175px; width: auto;" src="smartphone-in-bed.jpg" alt="Smartphone used while lying in bed" height="334" width="500">
+  ![Smartphone used while lying in bed](smartphone-in-bed.jpg)
   <figcaption class="w-figcaption">Smartphone used in bed (Source: Unsplash)</figcaption>
 </figure>
 
@@ -115,7 +115,7 @@ is an aesthetic one for most users, and might not relate to ambient lighting con
 {% endAside %}
 
 <figure class="w-figure w-figure--inline-right">
-  <img style="height: 225px; width: auto;" src="closeview.png" alt="CloseView in Mac OS System 7 with \"White on Black\" mode" height="618" width="531">
+  ![CloseView in Mac OS System 7 with \](closeview.png)
   <figcaption class="w-figcaption">System&nbsp;7 CloseView (<a href="https://archive.org/details/mac_Macintosh_System_7_at_your_Fingertips_1992">Source</a>)</figcaption>
 </figure>
 
@@ -178,7 +178,7 @@ Now that I have covered the background of why dark mode is such a big deal for m
 let's review how you can support it.
 
 <figure class="w-figure w-figure--inline-left">
-  <img style="height: 250px; width: auto;" src="android.png" alt="Android Q dark mode settings" height="700" width="610">
+  ![Android Q dark mode settings](android.png)
   <figcaption class="w-figcaption">Android&nbsp;Q dark theme settings</figcaption>
 </figure>
 
@@ -431,17 +431,17 @@ so that they never compete with resources that are needed by the site right now.
 {% endAside %}
 
 <figure class="w-figure">
-  <img src="light.png" alt="Network loading diagram showing how in light mode the dark mode CSS gets loaded with lowest priority" height="851" width="1633">
+  ![Network loading diagram showing how in light mode the dark mode CSS gets loaded with lowest priority](light.png)
   <figcaption class="w-figcaption">Site in light mode loads the dark mode CSS with lowest priority.</figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img src="dark.png" alt="Network loading diagram showing how in dark mode the light mode CSS gets loaded with lowest priority" height="851" width="1633">
+  ![Network loading diagram showing how in dark mode the light mode CSS gets loaded with lowest priority](dark.png)
   <figcaption class="w-figcaption">Site in dark mode loads the light mode CSS with lowest priority.</figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img src="unsupported.png" alt="Network loading diagram showing how in default light mode the dark mode CSS gets loaded with lowest priority" height="851" width="1633">
+  ![Network loading diagram showing how in default light mode the dark mode CSS gets loaded with lowest priority](unsupported.png)
   <figcaption class="w-figcaption">Site in default light mode on a browser that doesn't support <code>prefers-color-scheme</code> loads the dark mode CSS with lowest priority.</figcaption>
 </figure>
 
@@ -475,7 +475,7 @@ in a way that only affects the currently visible tab.
 Open the [Command Menu](https://developers.google.com/web/tools/chrome-devtools/command-menu), start typing `Rendering`, run the `Show Rendering` command, and then change the **Emulate CSS media feature prefers-color-scheme** option.
 
 <figure class="w-figure">
-  <img src="devtools-emulate.png" alt="A screenshot of the 'Emulate CSS media feature prefers-color-scheme' option that is located in the Rendering tab of Chrome DevTools" width="945" height="652">
+  ![A screenshot of the 'Emulate CSS media feature prefers-color-scheme' option that is located in the Rendering tab of Chrome DevTools](devtools-emulate.png)
 </figure>
 
 ### Screenshotting `prefers-color-scheme` with Puppeteer
@@ -511,13 +511,13 @@ I refer to this as *re-colorization*.
 
 <div class="w-columns">
   <figure class="w-figure">
-    <img src="./hero-dark.png" alt="Hero image slightly darkened in dark mode.">
+    ![Hero image slightly darkened in dark mode.](./hero-dark.png)
     <figcaption class="w-figcaption">
       Hero image slightly darkened in dark mode.
     </figcaption>
   </figure>
   <figure class="w-figure">
-    <img src="./hero-light.png" alt="Regular hero image in light mode.">
+    ![Regular hero image in light mode.](./hero-light.png)
     <figcaption class="w-figcaption">
       Regular hero image in light mode.
     </figcaption>
@@ -576,13 +576,13 @@ in the regular and in the [`:hover`](https://developer.mozilla.org/en-US/docs/We
 
 <div class="w-columns">
   <figure class="w-figure">
-    <img src="./icons-dark.png" alt="Icons are inverted in dark mode.">
+    ![Icons are inverted in dark mode.](./icons-dark.png)
     <figcaption class="w-figcaption">
       Icons are inverted in dark mode.
     </figcaption>
   </figure>
   <figure class="w-figure">
-    <img src="./icons-light.png" alt="Regular icons in light mode.">
+    ![Regular icons in light mode.](./icons-light.png)
     <figcaption class="w-figcaption">
       Regular icons in light mode.
     </figcaption>
@@ -740,13 +740,13 @@ The demo below shows the element in action
 
 <div class="w-columns">
   <figure class="w-figure">
-    <img style="height: 76px;" src="./dark-mode-toggle-light.png" alt="<dark-mode-toggle> in light mode.">
+    ![<dark-mode-toggle> in light mode.](./dark-mode-toggle-light.png)
     <figcaption class="w-figcaption">
       <code>&lt;dark-mode-toggle&gt;</code> in light mode.
     </figcaption>
   </figure>
   <figure class="w-figure">
-    <img style="height: 76px;" src="./dark-mode-toggle-dark.png" alt="<dark-mode-toggle> in light mode.">
+    ![<dark-mode-toggle> in light mode.](./dark-mode-toggle-dark.png)
     <figcaption class="w-figcaption">
       <code>&lt;dark-mode-toggle&gt;</code> in dark mode.
     </figcaption>

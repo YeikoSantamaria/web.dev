@@ -268,7 +268,7 @@ For example, a complex component like a menu may be one focus target within a pa
 but should then manage focus within itself so that the active menu item always takes focus.
 
 <figure class="w-figure">
-  <img src="./manage-focus.png" alt="A screenshot of a menu and submenu that requires focus management.">
+  ![A screenshot of a menu and submenu that requires focus management.](./manage-focus.png)
   <figcaption class="w-figcaption">
     Managing focus within a complex element.
   </figcaption>
@@ -336,7 +336,7 @@ to automate running keyboard accessibility tests for toggling UI states.
 has a great guide on this I recommend reading.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./aria-expanded.gif" alt="WalkMe state toggle test.">
+  ![WalkMe state toggle test.](./aria-expanded.gif)
 </figure>
 
 ```js
@@ -405,7 +405,7 @@ you can allow users of assistive technology to interact with the element,
 change its value, and even cause the element's visual presentation to change accordingly.
 
 <figure class="w-figure">
-  <img src="./slider.png" class="w-screenshot" alt="A screenshot of a slider.">
+  ![A screenshot of a slider.](./slider.png)
   <figcaption class="w-figcaption">
     A range slider component.
   </figcaption>
@@ -426,7 +426,7 @@ so users who have visual impairments can understand the information
 even if they can't tell where the slices begin and end:
 
 <figure class="w-figure">
-  <img src="./pie-chart.png" alt="A pie chart with labels and values to ensure accessibility.">
+  ![A pie chart with labels and values to ensure accessibility.](./pie-chart.png)
   <figcaption class="w-figcaption">An accessible pie chart. (From the <a href="https://www.w3.org/WAI/GL/low-vision-a11y-tf/wiki/Informational_Graphic_Contrast_(Minimum)" rel="noopener">W3C Web Accessibility Initiative</a>.)</figcaption>
 </figure>
 

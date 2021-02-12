@@ -98,7 +98,7 @@ let frame_from_bitmap = new VideoFrame(bitmap, { timestamp: 0 });
 ```
 
 <figure class="w-figure">
-  <img src="./consuming-frames-from-bitmaps.png" alt="The path from ImageBitmap to the network or to storage.">
+  ![The path from ImageBitmap to the network or to storage.](./consuming-frames-from-bitmaps.png)
   <figcaption class="w-figcaption">The path from <code>ImageBitmap</code> to the network or to storage.</figcaption>
 </figure>
 
@@ -118,7 +118,7 @@ vtr.start((frame) => {
 ```
 
 <figure class="w-figure">
-  <img src="./consuming-frames-from-tracks.png" alt="The path from MediaStreamTrack to the network or to storage.">
+  ![The path from MediaStreamTrack to the network or to storage.](./consuming-frames-from-tracks.png)
   <figcaption class="w-figcaption">The path from <code>MediaStreamTrack</code> to the network or to storage.</figcaption>
 </figure>
 
@@ -264,7 +264,7 @@ await decoder.flush();
 ```
 
 <figure class="w-figure">
-  <img src="./producing-frames.png" alt="The path from the network or storage to an ImageBitmap.">
+  ![The path from the network or storage to an ImageBitmap.](./producing-frames.png)
   <figcaption class="w-figcaption">The path from the network or storage to an <code>ImageBitmap</code>.</figcaption>
 </figure>
 

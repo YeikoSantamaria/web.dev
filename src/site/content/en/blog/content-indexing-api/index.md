@@ -253,7 +253,7 @@ they're done viewing previously indexed content. This is how the deletion
 interface looks in Chrome 80:
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="delete-menu.png" alt="The delete menu item." width="550">
+  ![The delete menu item.](delete-menu.png)
 </figure>
 
 When someone selects that menu item, your web app's service worker will receive

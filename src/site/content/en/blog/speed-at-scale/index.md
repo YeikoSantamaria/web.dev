@@ -31,7 +31,7 @@ standards for the performance of your site. More importantly, they make it is
 easy to identify and fix performance regressions before they ship.
 
 <figure class="w-figure">
-  <img class="w-screenshot w-screenshot--filled" src="./Speed-at0.png" alt="A LightWallet report showing which assets are over the file size budget." loading="lazy">
+  ![A LightWallet report showing which assets are over the file size budget.](./Speed-at0.png)
 </figure>
 
 LightWallet is available in the newest version of the Lighthouse CLI and only
@@ -68,7 +68,7 @@ iframes until users scroll near them. `loading` supports three values:
 * `auto`: browser will determine whether or not to lazily load.
 
 ```html
-<img src="io2019.jpg" loading="lazy" alt="..." />
+![...](io2019.jpg)
 <iframe src="video-player.html" loading="lazy"></iframe>
 ```
 
@@ -105,7 +105,7 @@ below). We hope this will encourage more developers to try out this exciting
 addition.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="./Speed-at2.png" alt="Google Fonts embed code with font-display included in the URL as a query-parameter" loading="lazy">
+  ![Google Fonts embed code with font-display included in the URL as a query-parameter](./Speed-at2.png)
 </figure>
 
 Here's a [demo](https://glitch.com/~truth-bookcase) on Glitch of using display

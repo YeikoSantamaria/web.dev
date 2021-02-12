@@ -37,7 +37,7 @@ files, links, or text using the Web Share API. See
 {% endAside %}
 
 <figure class="w-figure w-figure--inline-right">
-  <img src="./wst-send.png" style="max-width: 400px;" alt="Android phone with the 'Share via' drawer open."/>
+  ![Android phone with the 'Share via' drawer open.](./wst-send.png)
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     System-level share target picker with an installed PWA as an option.
   </figcaption>
@@ -242,7 +242,7 @@ self.addEventListener('fetch', event => {
 ### Verifying shared content
 
 <figure class="w-figure w-figure--inline-right">
-  <img src="./wst-receive.png" style="max-width: 400px;" alt="An Android phone displaying the demo app with shared content."/>
+  ![An Android phone displaying the demo app with shared content.](./wst-receive.png)
   <figcaption class="w-figcaption w-figcaption--fullbleed">
     The sample sharing target app.
   </figcaption>

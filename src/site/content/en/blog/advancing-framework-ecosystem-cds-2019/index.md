@@ -76,7 +76,7 @@ The Angular team has shipped a number of improvements to version 8 of the framew
     default to minimize unneeded polyfills for newer browsers.
 
 <figure class="w-figure">
-  <img src="differential-loading-angular.png" class="w-screenshot" alt="Graph showing bundle size reduction of angular.io with and without differential builds">
+  ![Graph showing bundle size reduction of angular.io with and without differential builds](differential-loading-angular.png)
   <figcaption class="w-figcaption">
     Bundle size reduction for angular.io with differential builds (from <a href="https://blog.angular.io/version-8-of-angular-smaller-bundles-cli-apis-and-alignment-with-the-ecosystem-af0261112a27">Version 8 of Angular</a>)
   </figcaption>
@@ -124,7 +124,7 @@ for comments (RFCs) and pull requests (PRs):
     ([PR](https://github.com/zeit/next.js/pull/8069)).
 
 <figure class="w-figure">
-  <img src="barnebys.png" class="w-screenshot-filled" alt="Homepage of Barnebys.com">
+  ![Homepage of Barnebys.com](barnebys.png)
   <figcaption class="w-figcaption">
     <a href="https://www.barnebys.com/">Barnebys.com</a>, a large search engine for antiques and collectibles, saw a 23% reduction in total JavaScript after enabling granular chunking
   </figcaption>
@@ -138,7 +138,7 @@ Next.js, such as:
     surface better errors and warnings ([RFC](https://github.com/zeit/next.js/issues/9310)).
 
 <figure class="w-figure">
-  <img src="conformance.png" class="w-screenshot-filled" alt="Example of a conformance build error in Next.js">
+  ![Example of a conformance build error in Next.js](conformance.png)
   <figcaption class="w-figcaption">
     An example of a conformance build error in Next.js (prototype)
   </figcaption>

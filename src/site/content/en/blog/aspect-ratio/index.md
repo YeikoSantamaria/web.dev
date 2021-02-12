@@ -31,7 +31,7 @@ width:height, or x:y. The most common aspect ratios for photography are 4:3 and 
 and more recent consumer cameras, tend to have a 16:9 aspect ratio.
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="aspect-ratio.jpg" alt="Two images with the same aspect ratio. One is 634 x 951px while the other is 200 x 300px. Both have a 2:3 aspect ratio.">
+  ![Two images with the same aspect ratio. One is 634 x 951px while the other is 200 x 300px. Both have a 2:3 aspect ratio.](aspect-ratio.jpg)
   <figcaption class="w-figcaption">
     Two images with the same aspect ratio. One is 634 x 951px while the other is 200 x 300px. Both have a 2:3 aspect ratio.
   </figcaption>
@@ -39,7 +39,7 @@ and more recent consumer cameras, tend to have a 16:9 aspect ratio.
 
 With the advent of responsive design, maintaining aspect ratio has been increasingly important for
 web developers, especially as image dimensions differ and element sizes shift based on available
-space. 
+space.
 
 Some examples of where maintaining aspect ratio become important are:
 
@@ -59,7 +59,7 @@ bucket is the `object-fit` property, which enables users to describe how an obje
 within a block should fill that block:
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="coffees.jpg" alt="Object-fit demo visualization">
+  ![Object-fit demo visualization](coffees.jpg)
   <figcaption class="w-figcaption">
     Showcasing various <code>object-fit</code> values. See <a href="https://codepen.io/una/pen/mdrLGjR">demo on Codepen</a>.
   </figcaption>
@@ -76,7 +76,7 @@ while fitting into the space. The `object-fit: none` case shows the image croppe
 
 `object-fit: cover` tends to work in most situations to ensure a nice uniform interface when dealing
 with images of varying dimensions, however, you lose information this way (the image is cropped at
-its longest edges). 
+its longest edges).
 
 If these details are important (for example, when working with a flat lay of beauty products),
 cropping important content is not acceptable. So the ideal scenario would be responsive images of
@@ -85,7 +85,7 @@ varying sizes that fit the UI space without cropping.
 ## The old hack: maintaining aspect ratio with `padding-top`
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="aspectratio-current.jpg" alt="Using padding-top to set a 1:1 aspect ratio on post preview images within a carousel.">
+  ![Using padding-top to set a 1:1 aspect ratio on post preview images within a carousel.](aspectratio-current.jpg)
   <figcaption class="w-figcaption">
     Using <code>padding-top</code> to set a 1:1 aspect ratio on post preview images within a carousel.
   </figcaption>
@@ -131,7 +131,7 @@ We could then write the following CSS:
 ## Maintaining aspect ratio with `aspect-ratio`
 
 <figure class="w-figure">
-  <img class="w-screenshot" src="aspectratio-future.jpg" alt="Using aspect-ratio to set a 1:1 aspect ratio on post preview images within a carousel.">
+  ![Using aspect-ratio to set a 1:1 aspect ratio on post preview images within a carousel.](aspectratio-future.jpg)
   <figcaption class="w-figcaption">
     Using <code>aspect-ratio</code> to set a 1:1 aspect ratio on post preview images within a carousel.
   </figcaption>
@@ -260,7 +260,7 @@ that the image takes up the proper space. All together that would look like:
 
 ```markup
 <!-- Markup -->
-<img src="image.jpg" alt="..." width="8" height="6">
+![...](image.jpg)
 ```
 
 ```css
@@ -277,7 +277,7 @@ Codepen](https://codepen.io/una/pen/gOwJWoz)).
 ## Conclusion
 
 With the new `aspect-ratio` CSS property, launching across multiple modern browsers, maintaining proper
-aspect ratios in your media and layout containers gets a little bit more straightforward. 
+aspect ratios in your media and layout containers gets a little bit more straightforward.
 
 
 Photos by [Amy Shamblen](https://unsplash.com/photos/TXg_38oImi0) and [Lionel

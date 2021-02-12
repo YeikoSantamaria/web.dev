@@ -113,12 +113,12 @@ Excalidraw Desktop so far is basically the Excalidraw web app bundled as an
 and feel of the application is almost identical to the web version.
 
 <figure class="w-figure">
-  <img src="excalidraw-desktop.png" alt="The Excalidraw Desktop application running in an Electron wrapper.">
+  ![The Excalidraw Desktop application running in an Electron wrapper.](excalidraw-desktop.png)
   <figcaption class="w-figcaption">Excalidraw Desktop is almost indistinguishable from the web version</figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img src="about-excalidraw.png" width="400" alt="The Excalidraw Desktop 'About' window displaying the version of the Electron wrapper and the web app.">
+  ![The Excalidraw Desktop 'About' window displaying the version of the Electron wrapper and the web app.](about-excalidraw.png)
   <figcaption class="w-figcaption">The <strong>About Excalidraw</strong> menu providing insights into the versions</figcaption>
 </figure>
 
@@ -128,7 +128,7 @@ is, in its current state, pretty useless. Meanwhile, all actions can of course b
 regular Excalidraw toolbars and the context menu.
 
 <figure class="w-figure">
-  <img src="menu.png" alt="The Excalidraw Desktop menu bar on macOS with the 'File', 'Close Window' menu item selected.">
+  ![The Excalidraw Desktop menu bar on macOS with the 'File', 'Close Window' menu item selected.](menu.png)
   <figcaption class="w-figcaption">The menu bar of Excalidraw Desktop on macOS</figcaption>
 </figure>
 
@@ -178,7 +178,7 @@ Excalidraw today is an [installable](/installable/) Progressive Web App with a
 one for fonts and font-related CSS, and one for everything else.
 
 <figure class="w-figure">
-  <img src="excalidraw-cache.png" alt="Chrome DevTools Application tab showing the two Excalidraw caches.">
+  ![Chrome DevTools Application tab showing the two Excalidraw caches.](excalidraw-cache.png)
   <figcaption class="w-figcaption">Excalidraw's cache contents</figcaption>
 </figure>
 
@@ -187,7 +187,7 @@ Chromium-based browsers on both desktop and mobile prompt the user to install th
 You can see the installation prompt in the screenshot below.
 
 <figure class="w-figure">
-  <img src="install-excalidraw.png" width="400" alt="Excalidraw prompting the user to install the app in Chrome on macOS.">
+  ![Excalidraw prompting the user to install the app in Chrome on macOS.](install-excalidraw.png)
   <figcaption class="w-figcaption">The Excalidraw install dialog in Chrome</figcaption>
 </figure>
 
@@ -197,12 +197,12 @@ gets its own app icon on the home screen, Dock, or task bar; depending on the pl
 it.
 
 <figure class="w-figure">
-  <img src="excalidraw-pwa.png" alt="Excalidraw running in its own window.">
+  ![Excalidraw running in its own window.](excalidraw-pwa.png)
   <figcaption class="w-figcaption">The Excalidraw PWA in a standalone window</figcaption>
 </figure>
 
 <figure class="w-figure">
-  <img src="excalidraw-icon.png" width="400" alt="Excalidraw icon on the macOS Dock.">
+  ![Excalidraw icon on the macOS Dock.](excalidraw-icon.png)
   <figcaption class="w-figcaption">The Excalidraw icon on the macOS Dock</figcaption>
 </figure>
 
@@ -229,7 +229,7 @@ an easy integration with other platform-specific tools like [Inkscape](https://i
 tools like [SVGOMG](https://jakearchibald.github.io/svgomg/).
 
 <figure class="w-figure">
-  <img src="clipboard.png" alt="Excalidraw context menu showing the 'copy to clipboard as SVG' and 'copy to clipboard as PNG' menu items.">
+  ![Excalidraw context menu showing the 'copy to clipboard as SVG' and 'copy to clipboard as PNG' menu items.](clipboard.png)
   <figcaption class="w-figcaption">The Excalidraw context menu offering clipboard actions</figcaption>
 </figure>
 
