@@ -265,7 +265,7 @@ save it (technically: download it, since Safari does not support the File System
 to my iPhone Downloads folder, open the file on my desktop (after transferring it from my phone),
 modify the file, and overwrite it with my changes, or even save it as a new file.
 
-{% Img src="image/admin/u1Gwxp5MxS39wl8PW2vz.png", alt="An Excalidraw drawing on an iPhone.", width="800", height="1731", className="w-screenshot", caption="Starting an Excalidraw drawing on an iPhone where the File System Access API is not supported, but where a file can be saved (downloaded) to the Downloads folder." %}
+{% Img src="image/admin/u1Gwxp5MxS39wl8PW2vz.png", alt="An Excalidraw drawing on an iPhone.", width="300", height="649", className="w-screenshot", caption="Starting an Excalidraw drawing on an iPhone where the File System Access API is not supported, but where a file can be saved (downloaded) to the Downloads folder." %}
 
 {% Img src="image/admin/W1lt36DtKuveBJJTzonC.png", alt="The modified Excalidraw drawing on Chrome on the desktop.", width="800", height="592", className="w-screenshot", caption="Opening and modifying the Excalidraw drawing on the desktop where the File System Access API is supported and thus the file can be accessed via the API." %}
 
