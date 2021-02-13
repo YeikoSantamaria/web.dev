@@ -128,11 +128,11 @@ the three sites do have a shared code base,
 so they were able to implement the component once, and deploy it everywhere,
 as shown in the screenshots below.
 
-{% Img src="image/admin/I9y4AIPEK9P4V0JFn4y1.png", alt="BettyCrocker.com wake lock toggle", width="600", height="170", className="w-screenshot", caption="BettyCrocker.com wake lock toggle." %}
+{% Img src="image/admin/I9y4AIPEK9P4V0JFn4y1.png", alt="BettyCrocker.com wake lock toggle", width="600", height="170", className="w-screenshot", caption=true %}
 
-{% Img src="image/admin/PXS7bnWxYiLKtmLekulr.png", alt="Pillsbury.com wake lock toggle", width="600", height="152", className="w-screenshot", caption="Pillsbury.com wake lock toggle." %}
+{% Img src="image/admin/PXS7bnWxYiLKtmLekulr.png", alt="Pillsbury.com wake lock toggle", width="600", height="152", className="w-screenshot", caption=true %}
 
-{% Img src="image/admin/S5NQabO9qJTwlidx2eZo.png", alt="Tablespoon.com wake lock toggle", width="600", height="152", className="w-screenshot", caption="Tablespoon.com wake lock toggle." %}
+{% Img src="image/admin/S5NQabO9qJTwlidx2eZo.png", alt="Tablespoon.com wake lock toggle", width="600", height="152", className="w-screenshot", caption=true %}
 
 When developing the component based on the new site's modernized framework,
 there was a strong focus on the

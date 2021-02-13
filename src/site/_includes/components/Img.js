@@ -94,7 +94,9 @@ const Img = function (args) {
 
   if (caption) {
     imgTag = html`${imgTag}
-      <figcaption class="w-figcaption">${caption}</figcaption>`;
+      <figcaption class="w-figcaption">
+        ${caption === true ? alt : caption}
+      </figcaption>`;
   }
 
   if (figure || caption) {
