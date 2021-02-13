@@ -90,7 +90,7 @@ The first is to have a `<mask>` element inside the SVG and reference the ID of t
 </svg>
 
 <div class="container">
-    ![Balloons](balloons.jpg)
+    <img src="balloons.jpg" alt="Balloons">
 </div>
 ```
 

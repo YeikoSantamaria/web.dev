@@ -61,7 +61,7 @@ I've provided some visual color hinting to help you keep some meta information
 in context:
 
 <figure class="w-figure">
-  ![](./legend.png)
+  <img class="w-screenshot" src="./legend.png" alt="">
   <figcaption class="w-figcaption"></figcaption>
 </figure>
 
