@@ -72,10 +72,7 @@ characterized as a Long Task. Long Tasks are a sign of
 potential JavaScript bloat (loading and executing more than a user may need right now).
 Splitting up long tasks can reduce input delay on your site.
 
-<figure class="w-figure">
-  {% Img src="image/admin/THLKu0sOPhSghNr0XkP1.png", alt="Long Tasks in Chrome DevTools", width="800", height="132" %}
-  <figcaption class="w-figcaption">Chrome DevTools <a href="https://developers.google.com/web/updates/2020/03/devtools#long-tasks">visualizes Long Tasks</a> in the Performance Panel</figcaption>
-</figure>
+{% Img src="image/admin/THLKu0sOPhSghNr0XkP1.png", alt="Long Tasks in Chrome DevTools", width="800", height="132", caption="Long Tasks in Chrome DevTools" %}
 
 FID should improve noticeably as you adopt best practices like code-splitting and breaking up your
 Long Tasks. While TBT is not a field metric, it's useful for checking progress towards ultimately

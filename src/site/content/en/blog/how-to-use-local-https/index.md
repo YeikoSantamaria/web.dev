@@ -47,10 +47,7 @@ and browser. [mkcert](https://github.com/FiloSottile/mkcert) is a tool that help
 - mkcert is listed as a trusted authority, so your browser trusts the
   certificate and creates an HTTPS connection.
 
-<figure class="w-figure">
-  {% Img src="image/admin/3kdjci7NORnOw54fMia9.jpg", alt="A diagram of how mkcert works.", width="800", height="787" %}
-  <figcaption class="w-figcaption">A diagram of how mkcert works.</figcaption>
-</figure>
+{% Img src="image/admin/3kdjci7NORnOw54fMia9.jpg", alt="A diagram of how mkcert works.", width="800", height="787", caption="A diagram of how mkcert works." %}
 
 mkcert (and similar tools) provide several benefits:
 
@@ -274,10 +271,7 @@ Why don't browsers trust self-signed certificates?
 
 If you open your locally running site in your browser using HTTPS, your browser will check the certificate of your local development server. When it sees that the certificate has been signed by yourself, it checks whether you're registered as a trusted certificate authority. Because you're not, your browser can't trust the certificate; it displays a warning telling you that your connection is not secure. You may proceed at your own risk—if you do, an HTTPS connection will be created.
 
-<figure class="w-figure">
-  {% Img src="image/admin/V2SAcIzuofqzUuestOOX.jpg", alt="Why browsers don't trust self-signed certificates: a diagram.", width="800", height="833" %}
-  <figcaption class="w-figcaption">Why browsers don't trust self-signed certificates.</figcaption>
-</figure>
+{% Img src="image/admin/V2SAcIzuofqzUuestOOX.jpg", alt="Why browsers don't trust self-signed certificates: a diagram.", width="800", height="833", caption="Why browsers don't trust self-signed certificates: a diagram." %}
 
 {% endDetails %}
 

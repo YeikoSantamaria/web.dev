@@ -130,10 +130,7 @@ only work in [Lighthouse
 CLI](https://developers.google.com/web/tools/lighthouse#cli), but the goal is to
 enable running them in the DevTools **Audits** panel too.
 
-<figure class="w-figure">
-  {% Img src="image/admin/I6WOZkh3Wdbb6vk2sE4z.png", alt="Chrome DevTools Audits panel with options for running Lighthouse plugins for Google Publisher Ads and User Experience.", width="607", height="1142" %}
-  <figcaption class="w-figcaption">Community Plugins in DevTools Audits panel (beta)</figcaption>
-</figure>
+{% Img src="image/admin/I6WOZkh3Wdbb6vk2sE4z.png", alt="Chrome DevTools Audits panel with options for running Lighthouse plugins for Google Publisher Ads and User Experience.", width="607", height="1142", caption="Chrome DevTools Audits panel with options for running Lighthouse plugins for Google Publisher Ads and User Experience." %}
 
 When users install Lighthouse plugin extensions from the [Chrome Web
 Store](https://chrome.google.com/webstore/category/extensions), DevTools will

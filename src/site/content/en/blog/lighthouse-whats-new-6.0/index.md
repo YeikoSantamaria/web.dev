@@ -260,10 +260,7 @@ you explore performance scoring. The calculator also gives you a comparison betw
 6 scores. When you run an audit with Lighthouse 6.0, the report comes with a link to the calculator
 with your results populated.
 
-<figure class="w-figure">
-  {% Img src="image/admin/N8cRFUnM526m3fB4GQVf.png", alt="Lighthouse Score Calculator.", width="800", height="425" %}
-  <figcaption class="w-figcaption">Huge thanks to <a href="https://twitter.com/anatudor">Ana Tudor</a> for the gauge upgrade!</figcaption>
-</figure>
+{% Img src="image/admin/N8cRFUnM526m3fB4GQVf.png", alt="Lighthouse Score Calculator.", width="800", height="425", caption="Lighthouse Score Calculator." %}
 
 ## New audits {: #new-audits }
 

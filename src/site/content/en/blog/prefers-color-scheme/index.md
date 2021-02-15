@@ -430,20 +430,11 @@ so that they never compete with resources that are needed by the site right now.
   [why browsers download stylesheets with non-matching media queries](https://blog.tomayac.com/2018/11/08/why-browsers-download-stylesheets-with-non-matching-media-queries-180513).
 {% endAside %}
 
-<figure class="w-figure">
-  {% Img src="image/admin/flTdLliru6GmqqlOKjNx.png", alt="Network loading diagram showing how in light mode the dark mode CSS gets loaded with lowest priority", width="800", height="417" %}
-  <figcaption class="w-figcaption">Site in light mode loads the dark mode CSS with lowest priority.</figcaption>
-</figure>
+{% Img src="image/admin/flTdLliru6GmqqlOKjNx.png", alt="Network loading diagram showing how in light mode the dark mode CSS gets loaded with lowest priority", width="800", height="417", caption="Network loading diagram showing how in light mode the dark mode CSS gets loaded with lowest priority" %}
 
-<figure class="w-figure">
-  {% Img src="image/admin/IDs6Le0VBhHu9QEDdxL6.png", alt="Network loading diagram showing how in dark mode the light mode CSS gets loaded with lowest priority", width="800", height="417" %}
-  <figcaption class="w-figcaption">Site in dark mode loads the light mode CSS with lowest priority.</figcaption>
-</figure>
+{% Img src="image/admin/IDs6Le0VBhHu9QEDdxL6.png", alt="Network loading diagram showing how in dark mode the light mode CSS gets loaded with lowest priority", width="800", height="417", caption="Network loading diagram showing how in dark mode the light mode CSS gets loaded with lowest priority" %}
 
-<figure class="w-figure">
-  {% Img src="image/admin/zJqu5k3TIgcZf1OHWWIq.png", alt="Network loading diagram showing how in default light mode the dark mode CSS gets loaded with lowest priority", width="800", height="417" %}
-  <figcaption class="w-figcaption">Site in default light mode on a browser that doesn't support <code>prefers-color-scheme</code> loads the dark mode CSS with lowest priority.</figcaption>
-</figure>
+{% Img src="image/admin/zJqu5k3TIgcZf1OHWWIq.png", alt="Network loading diagram showing how in default light mode the dark mode CSS gets loaded with lowest priority", width="800", height="417", caption="Network loading diagram showing how in default light mode the dark mode CSS gets loaded with lowest priority" %}
 
 ### Reacting on dark mode changes
 

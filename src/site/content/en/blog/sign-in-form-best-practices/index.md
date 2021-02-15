@@ -146,10 +146,7 @@ research](https://ai.googleblog.com/2014/07/simple-is-better-making-your-web-for
 enables quicker scanning by users. You get full width labels and inputs, and you
 don't need to adjust label and input width to fit the label text.
 
-<figure class="w-figure">
-  {% Img src="image/admin/k0ioJa9CqnMI8vyAvQPS.png", alt="Screenshot showing form input label position on mobile: next to input and above input.", width="800", height="405" %}
-  <figcaption class="w-figcaption">Label and input width is limited when both are on the same line.</figcaption>
-</figure>
+{% Img src="image/admin/k0ioJa9CqnMI8vyAvQPS.png", alt="Screenshot showing form input label position on mobile: next to input and above input.", width="800", height="405", caption="Screenshot showing form input label position on mobile: next to input and above input." %}
 
 Open the [label-position](https://label-position.glitch.me) Glitch on a
 mobile device to see for yourself.
@@ -218,10 +215,7 @@ Add an `autofocus` attribute to the first input in your sign-in form. That makes
 it clear where to start and, on desktop at least, means users don't have to
 select the input to start typing.
 
-<figure class="w-figure">
-  {% Img src="image/admin/27x2icJSXCMdfWOjVAdR.png", alt="Screenshot showing form input with autofocus.", width="800", height="721" %}
-  <figcaption class="w-figcaption">Autofocus provides clear visual focus on desktop.</figcaption>
-</figure>
+{% Img src="image/admin/27x2icJSXCMdfWOjVAdR.png", alt="Screenshot showing form input with autofocus.", width="800", height="721", caption="Screenshot showing form input with autofocus." %}
 
 ## Keep passwords private—but enable users to see them if they want {: #show-password }
 
@@ -234,10 +228,7 @@ You should add a **Show password** icon or button to enable users to check the
 text they've entered—and don't forget to add a **Forgot password** link. See
 [Enable password display](#password-display).
 
-<figure class="w-figure">
-  {% Img src="image/admin/58suVe0HnSLaJvNjKY53.png", alt="Google sign-in form showing Show password icon.", width="694", height="248" %}
-  <figcaption class="w-figcaption">Password input from the Google sign-in form: with <strong>Show password</strong> icon and <strong>Forgot password</strong> link.</figcaption>
-</figure>
+{% Img src="image/admin/58suVe0HnSLaJvNjKY53.png", alt="Google sign-in form showing Show password icon.", width="694", height="248", caption="Google sign-in form showing Show password icon." %}
 
 ## Give mobile users the right keyboard {: #mobile-keyboards }
 
@@ -263,17 +254,11 @@ Unfortunately, if you're not careful, mobile keyboards may cover your form or,
 worse, partially obstruct the **Sign in** button. Users may give up before
 realizing what has happened.
 
-<figure class="w-figure">
-  {% Img src="image/admin/rLo5sW9LBpTcJU7KNnb7.png", alt="Two screenshots of a sign-in form on an Android phone: one showing how the Submit button is obscured by the phone keyboard.", width="800", height="719" %}
-  <figcaption class="w-figcaption">The <b>Sign in</b> button: now you see it, now you don't.</figcaption>
-</figure>
+{% Img src="image/admin/rLo5sW9LBpTcJU7KNnb7.png", alt="Two screenshots of a sign-in form on an Android phone: one showing how the Submit button is obscured by the phone keyboard.", width="800", height="719", caption="Two screenshots of a sign-in form on an Android phone: one showing how the Submit button is obscured by the phone keyboard." %}
 
 Where possible, avoid this by displaying only the email/phone and password inputs and **Sign in** button at the top of your sign-in page. Put other content below.
 
-<figure class="w-figure">
-  {% Img src="image/admin/0OebKiAP4sTgaXbcbvYx.png", alt="Screenshot of a sign-in form on an Android phone: the Sign in button is not obscured by the phone keyboard.", width="800", height="1367" %}
-  <figcaption class="w-figcaption">The keyboard doesn't obstruct the <b>Sign in</b> button.</figcaption>
-</figure>
+{% Img src="image/admin/0OebKiAP4sTgaXbcbvYx.png", alt="Screenshot of a sign-in form on an Android phone: the Sign in button is not obscured by the phone keyboard.", width="800", height="1367", caption="Screenshot of a sign-in form on an Android phone: the Sign in button is not obscured by the phone keyboard." %}
 
 #### Test on a range of devices {: #devices }
 
@@ -283,10 +268,7 @@ projects](https://www.browserstack.com/open-source) on a range of real devices
 and browsers.
 
 
-<figure class="w-figure">
-  {% Img src="image/admin/jToMlWgjS3J2WKmjs1hx.png", alt="Screenshots of a sign-in form on iPhone 7, 8 and 11. On iPhone 7 and 8 the Sign in button is obscured by the phone keyboard, but not on iPhone 11", width="800", height="522" %}
-  <figcaption class="w-figcaption">The <b>Sign in</b> button: obscured on iPhone 7 and 8, but not on iPhone 11.</figcaption>
-</figure>
+{% Img src="image/admin/jToMlWgjS3J2WKmjs1hx.png", alt="Screenshots of a sign-in form on iPhone 7, 8 and 11. On iPhone 7 and 8 the Sign in button is obscured by the phone keyboard, but not on iPhone 11", width="800", height="522", caption="Screenshots of a sign-in form on iPhone 7, 8 and 11. On iPhone 7 and 8 the Sign in button is obscured by the phone keyboard, but not on iPhone 11" %}
 
 #### Consider using two pages {: #two-pages }
 
@@ -294,10 +276,7 @@ Some sites (including Amazon and eBay) avoid the problem by asking for
 email/phone and password on two pages. This approach also simplifies the
 experience: the user is only tasked with one thing at a time.
 
-<figure class="w-figure">
-  {% Img src="image/admin/CxpObjYZMs0MMFo66f4P.png", alt="Screenshot of a sign-in form on the Amazon website: email/phone and password on two separate 'pages'.", width="800", height="770" %}
-  <figcaption class="w-figcaption">Two-stage sign-in: email or phone, then password.</figcaption>
-</figure>
+{% Img src="image/admin/CxpObjYZMs0MMFo66f4P.png", alt="Screenshot of a sign-in form on the Amazon website: email/phone and password on two separate 'pages'.", width="800", height="770", caption="Screenshot of a sign-in form on the Amazon website: email/phone and password on two separate 'pages'." %}
 
 Ideally, this should be implemented with a single &lt;form&gt;. Use JavaScript
 to initially display only the email input, then hide it and show the password input.
@@ -362,17 +341,11 @@ differently, but the effects are much the same. On Safari 11 and above on deskto
 for example, the password manager is displayed, and then biometric
 authentication (fingerprint or facial recognition) is used if available.
 
-<figure class="w-figure">
-  {% Img src="image/admin/UjBRRYaLbX9bh3LDFcAM.png", alt="Screenshots of three stages of sign-in process in Safari on desktop: password manager, biometric authentication, autofill.", width="800", height="234" %}
-  <figcaption class="w-figcaption">Sign-in with autocomplete—no text entry required!</figcaption>
-</figure>
+{% Img src="image/admin/UjBRRYaLbX9bh3LDFcAM.png", alt="Screenshots of three stages of sign-in process in Safari on desktop: password manager, biometric authentication, autofill.", width="800", height="234", caption="Screenshots of three stages of sign-in process in Safari on desktop: password manager, biometric authentication, autofill." %}
 
 Chrome on desktop displays email suggestions, shows the password manager, and autofills the password.
 
-<figure class="w-figure">
-  {% Img src="image/admin/mDm1cstWZB9jJDzMmzgE.png", alt="Screenshots of four stages of sign-in process in Chrome on desktop: email completion, email suggestion, password manager, autofill on selection.", width="800", height="232" %}
-  <figcaption class="w-figcaption">Autocomplete sign-in flow in Chrome 84.</figcaption>
-</figure>
+{% Img src="image/admin/mDm1cstWZB9jJDzMmzgE.png", alt="Screenshots of four stages of sign-in process in Chrome on desktop: email completion, email suggestion, password manager, autofill on selection.", width="800", height="232", caption="Screenshots of four stages of sign-in process in Chrome on desktop: email completion, email suggestion, password manager, autofill on selection." %}
 
 
 Browser password and autofill systems are not simple. The algorithms for
@@ -401,10 +374,7 @@ suggest a strong password.
 
 Here's how Safari does it on desktop.
 
-<figure class="w-figure">
-  {% Img src="image/admin/B1DlZK0CllVjrOUbb5xB.png", alt="Screenshot of Firefox password manager on desktop.", width="800", height="229" %}
-  <figcaption class="w-figcaption">Password suggestion flow in Safari.</figcaption>
-</figure>
+{% Img src="image/admin/B1DlZK0CllVjrOUbb5xB.png", alt="Screenshot of Firefox password manager on desktop.", width="800", height="229", caption="Screenshot of Firefox password manager on desktop." %}
 
 (Strong unique password suggestion has been available in Safari since version 12.0.)
 
@@ -483,10 +453,7 @@ sized touch targets.
 As with size and padding, the default browser font size for input elements and
 buttons is too small, particularly on mobile.
 
-<figure class="w-figure">
-  {% Img src="image/admin/EeIsqWhLbot15p4SYpo2.png", alt="Screenshot of unstyled form in Chrome on desktop and on Android.", width="800", height="494" %}
-  <figcaption class="w-figcaption">Default styling on desktop and mobile: input text is too small to be legible for many users.</figcaption>
-</figure>
+{% Img src="image/admin/EeIsqWhLbot15p4SYpo2.png", alt="Screenshot of unstyled form in Chrome on desktop and on Android.", width="800", height="494", caption="Screenshot of unstyled form in Chrome on desktop and on Android." %}
 
 Browsers on different platforms size fonts differently, so it's difficult to
 specify a particular font size that works well everywhere. A quick survey of
@@ -520,10 +487,7 @@ invisible on some platforms such as Chrome for Android.
 As well as padding, add a border: on a white background, a good general rule is
 to use `#ccc` or darker.
 
-<figure class="w-figure">
-  {% Img src="image/admin/OgDJ5V2N7imHXSBkN4pr.png", alt="Screenshot of styled form in Chrome on Android.", width="800", height="1680" %}
-  <figcaption class="w-figcaption">Legible text, visible input borders, adequate padding and margins.</figcaption>
-</figure>
+{% Img src="image/admin/OgDJ5V2N7imHXSBkN4pr.png", alt="Screenshot of styled form in Chrome on Android.", width="800", height="1680", caption="Screenshot of styled form in Chrome on Android." %}
 
 
 ### Use built-in browser features to warn of invalid input values {: #built-in-validation }
@@ -532,10 +496,7 @@ Browsers have built-in features to do basic form validation for inputs with a
 `type` attribute. Browsers warn when you submit a form with an invalid value,
 and set focus on the problematic input.
 
-<figure class="w-figure">
-  {% Img src="image/admin/Phf9m5J66lIX9x5brzOL.png", alt="Screenshot of a sign-in form in Chrome on desktop showing browser prompt and focus for an invalid email value.", width="800", height="773" %}
-  <figcaption class="w-figcaption">Basic built-in validation by the browser.</figcaption>
-</figure>
+{% Img src="image/admin/Phf9m5J66lIX9x5brzOL.png", alt="Screenshot of a sign-in form in Chrome on desktop showing browser prompt and focus for an invalid email value.", width="800", height="773", caption="Screenshot of a sign-in form in Chrome on desktop showing browser prompt and focus for an invalid email value." %}
 
 You can use the `:invalid` CSS selector to highlight invalid data. Use
 `:not(:placeholder-shown)` to avoid selecting inputs with no content.
@@ -622,10 +583,7 @@ function togglePassword() {
 
 Here's the end result:
 
-<figure class="w-figure">
-  {% Img src="image/admin/x4NP9JMf1KI8PapQ9JFh.png", alt="Screenshots of sign-in form with Show password text 'button', in Safari on Mac and on iPhone 7.", width="800", height="468" %}
-  <figcaption class="w-figcaption">Sign-in form with <strong>Show password</strong> text 'button', in Safari on Mac and iPhone 7.</figcaption>
-</figure>
+{% Img src="image/admin/x4NP9JMf1KI8PapQ9JFh.png", alt="Screenshots of sign-in form with Show password text 'button', in Safari on Mac and on iPhone 7.", width="800", height="468", caption="Screenshots of sign-in form with Show password text 'button', in Safari on Mac and on iPhone 7." %}
 
 
 ### Make password inputs accessible {: #accessible-password-inputs }
