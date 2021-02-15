@@ -114,7 +114,7 @@ and feel of the application is almost identical to the web version.
 
 {% Img src="image/admin/oR9usELiRYTSu8V7i7vj.png", alt="The Excalidraw Desktop application running in an Electron wrapper.", width="800", height="601", caption="The Excalidraw Desktop application running in an Electron wrapper." %}
 
-{% Img src="image/admin/y9d4nWR3p0VjvHcnP0iq.png", alt="The Excalidraw Desktop 'About' window displaying the version of the Electron wrapper and the web app.", width="800", height="659", caption="The Excalidraw Desktop 'About' window displaying the version of the Electron wrapper and the web app." %}
+{% Img src="image/admin/y9d4nWR3p0VjvHcnP0iq.png", alt="The Excalidraw Desktop 'About' window displaying the version of the Electron wrapper and the web app.", width="400", height="330", caption="The Excalidraw Desktop 'About' window displaying the version of the Electron wrapper and the web app." %}
 
 On macOS, there is now a system-level menu at the top of the application, but since none of the menu
 actions—apart from **Close Window** and **About Excalidraw**—are hooked up to to anything, the menu
@@ -174,7 +174,7 @@ This means the application is fully offline-capable and can run without a networ
 Chromium-based browsers on both desktop and mobile prompt the user to install the app.
 You can see the installation prompt in the screenshot below.
 
-{% Img src="image/admin/be3EQLezj3776w6SHLPi.png", alt="Excalidraw prompting the user to install the app in Chrome on macOS.", width="670", height="432", caption="Excalidraw prompting the user to install the app in Chrome on macOS." %}
+{% Img src="image/admin/be3EQLezj3776w6SHLPi.png", alt="Excalidraw prompting the user to install the app in Chrome on macOS.", width="400", height="258", caption="Excalidraw prompting the user to install the app in Chrome on macOS." %}
 
 Excalidraw is configured to run as a standalone application, so when you install it, you get an app
 that runs in its own window. It is fully integrated in the operating system's multitasking UI and
@@ -183,7 +183,7 @@ it.
 
 {% Img src="image/admin/MbMgQlGSBeNcX7Y362jV.png", alt="Excalidraw running in its own window.", width="800", height="584", caption="Excalidraw running in its own window." %}
 
-{% Img src="image/admin/7ncf98ZQZcg4g3UP2s7F.png", alt="Excalidraw icon on the macOS Dock.", width="800", height="333", caption="Excalidraw icon on the macOS Dock." %}
+{% Img src="image/admin/7ncf98ZQZcg4g3UP2s7F.png", alt="Excalidraw icon on the macOS Dock.", width="400", height="167", caption="Excalidraw icon on the macOS Dock." %}
 
 ### File system access
 
