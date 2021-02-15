@@ -43,7 +43,7 @@ will not exactly measure 1cm in size on most displays.
 Finally, dPR can also be affected by your browser's zoom feature. If you zoom in, the browser increases the reported dPR, causing everything to render bigger. If you check `devicePixelRatio` in a DevTools Console while zooming, you can see fractional values appear.
 
 <figure class="w-figure">
-  <img src="dprs.png" alt="" class="w-screenshot" width="600">![](dprs.png)
+  <img src="dprs.png" alt="" class="w-screenshot" width="600">
   <figcaption class="w-figcaption">DevTools showing a variety of fractional <code>devicePixelRatio</code> due to zooming.</figcaption>
 </figure>
 
